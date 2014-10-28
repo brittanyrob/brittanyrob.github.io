@@ -21,50 +21,30 @@ html, body {
 	padding: 0;
 }
 
-#navigation {
-    position:fixed;
-    top:0;
-    width:100%;
-    border:1px solid black;
+ul#list-nav {
+  list-style:none;
+  margin:50px;
+  padding:0;
+  width:525px;
+  float:right;
 }
 
-#navigation ul {
-    display: none;
-    list-style: none;
-    margin-left: 0;
-    padding-left: 0;
-    margin-bottom: 0;
+ul#list-nav li {
+  display:inline
 }
 
-#navigation ul.expanded {
-    display: block;
+ul#list-nav li a {
+  text-decoration:none;
+  padding:5px 0;
+  width:100px;
+  color:rgba(0,0,0,1.00);
+  float:right;
+  text-align:center;
+  border-left:1px solid #fff;
+  font-family: "Libre Baskerville", "ITC Esprit Book";
 }
 
-#navigation li a {
-    display: block;
-    padding: 10px 0;
-    border-top: 1px solid #666;
-    font-size: 1.2em;
-    color: #ccc;
-    text-decoration: none;
-}
-
-.menu_button {
-    display: block;
-    text-align: right;
-    color: #ffc;
-    text-decoration: none;
-	padding: 1rem;
-}
-
-.menu_button:hover {
-    color: #58cbdb;
-    text-decoration: none;
-}
-
-#navigation, footer {
-padding: 0px;
-background-color: #333;
-color: #fff;
-text-align: center;
+ul#list-nav li a:hover {
+  background:#a2b3a1;
+  color:#000
 }
