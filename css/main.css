@@ -61,3 +61,66 @@ ul#list-nav li a:hover {
 .video img{
 	display: block;
 }
+
+section {
+	padding: 10rem 0;
+}
+
+.office {
+	width: 200px;
+	opacity: 0;
+}
+
+.js-office-fade {
+	-webkit-animation: dipper-fade 1s linear forwards;
+	-ms-animation: dipper-fade 1s linear forwards;
+	-moz-animation: dipper-fade 1s linear forwards;
+	-o-animation: dipper-fade 1s linear forwards;
+	animation: dipper-fade 1s linear forwards;
+}
+
+
+@-webkit-keyframes office-fade {
+	0% {
+		opacity: 0;
+}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes office-fade {
+	0% {
+		opacity: 0;
+}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes office-fade {
+	0% {
+		opacity: 0;
+}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-o-keyframes office-fade {
+	0% {
+		opacity: 0;
+}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes office-fade {
+	0% {
+		opacity: 0;
+}
+	100% {
+		opacity: 1;
+	}
+}
