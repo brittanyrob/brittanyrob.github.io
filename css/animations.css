@@ -1,8 +1,48 @@
 @charset "UTF-8";
 /* CSS Document */
 
-#object{
-	background-color: #fe5652;
-
-	visibility: hidden;
+@-webkit-keyframes navslide{
+	
+	0%{
+		transform: translateX(500px);
+	}
+	100%{
+		transform: translateX(0px);
+	}
+}
+@-moz-keyframes navslide{
+	
+	0%{
+		transform: translateX(500px);
+	}
+	100%{
+		transform: translateX(0px);
+	}
+}
+@-o-keyframes navslide{
+	
+	0%{
+		transform: translateX(500px);
+	}
+	100%{
+		transform: translateX(0px);
+	}
+}
+@-ms-keyframes navslide{
+	
+	0%{
+		transform: translateX(500px);
+	}
+	100%{
+		transform: translateX(0px);
+	}
+}
+@keyframes navslide{
+	
+	0%{
+		transform: translateX(500px);
+	}
+	100%{
+		transform: translateX(0px);
+	}
 }

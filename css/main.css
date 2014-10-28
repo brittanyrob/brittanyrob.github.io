@@ -27,6 +27,12 @@ ul#list-nav {
   padding:0;
   width:525px;
   float:right;
+  transform: translateX(500px);
+  -webkit-animation: navslide 1000ms ease-out forwards;
+  -moz-animation: navslide 1000ms ease-out forwards;
+  -o-animation: navslide 1000ms ease-out forwards;
+  -ms-animation: navslide 1000ms ease-out forwards;
+  animation: navslide 1000ms ease-out forwards;
 }
 
 ul#list-nav li {
