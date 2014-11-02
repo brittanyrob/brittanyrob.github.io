@@ -21,6 +21,18 @@ html, body {
 	padding: 0;
 }
 
+.aboutme.start {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 150px;
+	position: absolute;
+  	transform: translateX(1000px);
+  	-webkit-animation: aboutslide 2s ease-out forwards;
+  	-moz-animation: aboutslide 2s ease-out forwards;
+  	-o-animation: aboutslide 2s ease-out forwards;
+  	-ms-animation: aboutslide 2s ease-out forwards;
+ 	 animation: aboutslide 2s ease-out forwards;
+}
+
 ul#list-nav {
   list-style:none;
   margin:50px;
@@ -44,7 +56,7 @@ ul#list-nav li a {
   text-decoration:none;
   padding:5px 0;
   width:100px;
-  color:rgba(0,0,0,1.00);
+  color:#fff;
   float:right;
   text-align:center;
   font-family: "Libre Baskerville", "ITC Esprit Book";
@@ -63,20 +75,20 @@ ul#list-nav li a:hover {
 }
 
 section {
-	padding: 10rem 0;
+	padding: 8rem 0;
 }
 
 .office {
-	width: 200px;
+	width: 50px;
 	opacity: 0;
 }
 
 .js-office-fade {
-	-webkit-animation: dipper-fade 1s linear forwards;
-	-ms-animation: dipper-fade 1s linear forwards;
-	-moz-animation: dipper-fade 1s linear forwards;
-	-o-animation: dipper-fade 1s linear forwards;
-	animation: dipper-fade 1s linear forwards;
+	-webkit-animation: office-fade 1s linear forwards;
+	-ms-animation: office-fade 1s linear forwards;
+	-moz-animation: office-fade 1s linear forwards;
+	-o-animation: office-fade 1s linear forwards;
+	animation: office-fade 1s linear forwards;
 }
 
 
