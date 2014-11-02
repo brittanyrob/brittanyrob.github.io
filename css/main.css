@@ -30,6 +30,18 @@ html, body {
 	width: 100%;
 }
 
+.img-flex-round {
+	width: 20%;
+	border-radius: 500px;
+	margin-left: 75px;
+	margin-top: 50px;
+}
+
+.img-flex-round {
+	width: 20%;
+	margin-left: 20px;
+}
+
 .unit {
 	background-color: none;
 	float: left;
@@ -133,4 +145,8 @@ section {
 	margin-bottom: 5px;
 }
 
+.iconstext {
+	font-size: 50px;
+	text-align: center;	
+}
 
