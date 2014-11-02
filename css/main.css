@@ -21,11 +21,60 @@ html, body {
 	padding: 0;
 }
 
-.aboutme.start {
+.grid {
+	overflow: hidden;
+}
+
+.img-flex {
+	display: block;
+	width: 100%;
+}
+
+.unit {
+	background-color: none;
+	float: left;
+	width: 33.3333%;
+}
+
+.unit-s-1{
+	width: 100%;	
+}
+
+@media only screen and (min-width: 30em) {
+	
+.unit-m-1 {
+	width: 100%;
+}
+	
+.unit-m-1-3 {
+	width: 33.3333%;
+}
+	
+.unit-m-1-2 {
+	width: 50%;
+}
+}
+
+@media only screen and (min-width: 50em) {
+	
+.unit-l-2-3 {
+	width: 66.6666%;
+}
+
+.unit-l-1-3 {
+	width: 33.3333%;
+}
+
+.unit-l-1-2 {
+	width: 50%;	
+}
+}
+
+.aboutme {
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
-	font-size: 150px;
+	font-size: 50px;
 	position: absolute;
-  	transform: translateX(1000px);
+  	transform: translateX(75px);
   	-webkit-animation: aboutslide 2s ease-out forwards;
   	-moz-animation: aboutslide 2s ease-out forwards;
   	-o-animation: aboutslide 2s ease-out forwards;
@@ -75,64 +124,13 @@ ul#list-nav li a:hover {
 }
 
 section {
-	padding: 8rem 0;
+	padding: 0rem 0;
 }
 
 .office {
-	width: 50px;
-	opacity: 0;
-}
-
-.js-office-fade {
-	-webkit-animation: office-fade 1s linear forwards;
-	-ms-animation: office-fade 1s linear forwards;
-	-moz-animation: office-fade 1s linear forwards;
-	-o-animation: office-fade 1s linear forwards;
-	animation: office-fade 1s linear forwards;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 
-@-webkit-keyframes office-fade {
-	0% {
-		opacity: 0;
-}
-	100% {
-		opacity: 1;
-	}
-}
-
-@-ms-keyframes office-fade {
-	0% {
-		opacity: 0;
-}
-	100% {
-		opacity: 1;
-	}
-}
-
-@-moz-keyframes office-fade {
-	0% {
-		opacity: 0;
-}
-	100% {
-		opacity: 1;
-	}
-}
-
-@-o-keyframes office-fade {
-	0% {
-		opacity: 0;
-}
-	100% {
-		opacity: 1;
-	}
-}
-
-@keyframes office-fade {
-	0% {
-		opacity: 0;
-}
-	100% {
-		opacity: 1;
-	}
-}
