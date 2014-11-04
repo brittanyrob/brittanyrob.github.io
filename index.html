@@ -6,7 +6,6 @@
 	<link href="css/grid.css" rel="stylesheet">
 	<link href="css/typography.css" rel="stylesheet">
 	<link href="css/animations.css" rel="stylesheet">
-	<link href="js/main.js" rel="stylesheet">
 <title>Brittany Robertson</title>
 
 </head>
@@ -16,24 +15,24 @@
 <ul id="list-nav">
   <li><a href="#">Contact</a></li>
   <li><a href="#">Portfolio</a></li>
-  <li><a href="#">About</a></li>
+  <li><a href="#about">About</a></li>
 </ul>
 
-<div class="grid">
-	<div class="unit unit-xs-1 unit-s-1 unit-m-1-1 unit-l-1-1">
+<div>
+	<div>
 		<section class="video">
 			<img class="img-flex" src="http://placehold.it/1500x1200" alt="Video">
 		</section>
 	</div>
 	
-	<div class="unit unit-xs-1 unit-s-1 unit-m-1-1 unit-l-1-1">
+	<div>
 		<section class="office">
 			<img class="img-flex" src="http://placehold.it/1500x600" alt="Office">
 		</section>
 	</div>	
 	
-	<div class="unit unit-xs-1 unit-s-1 unit-m-1-1 unit-l-1-1">
-		<section class="about">
+	<div>
+		<section class="about" id="about">
 		<h1 class="aboutme"> This is Me</h1>
 			<img class="img-flex" src="http://placehold.it/1500x1200" alt="About">
 		</section>
@@ -46,36 +45,62 @@
 		</section>
 	</div>	
 	
-	<div class="unit unit-xs-1 unit-s-1 unit-m-1-1 unit-l-1-1">
+	<div>
 		<section class="work">
 		<h2 class="iconstext"> Portfolio</h2>
-			<div>
+		<div class="grid">
+			<div class="work-wrapper unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+				<button class="work-item">
+					<img class="img-flex-square" src="http://placehold.it/200x200" alt="About">
+				</button>
+				<div class="work-info">
+					<button class="work-close">Close</button>
+					<div class="work-slider">
+						<img class="img-flex-square" src="http://placehold.it/200x200" alt="About">
+					</div>
+					<div class="work-text">
+						<h3>Title of this work</h3>
+						<p>ghwei lgheqio gnroi gnwrio gnwe igonewio</p>
+					</div>
+				</div>
+			</div>
+			<div class="work-wrapper unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
 				<img class="img-flex-square" src="http://placehold.it/200x200" alt="About">
 			</div>
-			<div>
+			<div class="work-wrapper unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
 				<img class="img-flex-square" src="http://placehold.it/200x200" alt="About">
 			</div>
-			<div>
+			<div class="work-wrapper unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
 				<img class="img-flex-square" src="http://placehold.it/200x200" alt="About">
 			</div>
-			<div>
+			<div class="work-wrapper unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
 				<img class="img-flex-square" src="http://placehold.it/200x200" alt="About">
 			</div>
-			<div>
+			<div class="work-wrapper work-wrapper-reverse unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+				<button class="work-item">
+					<img class="img-flex-square" src="http://placehold.it/200x200" alt="About">
+				</button>
+				<div class="work-info">
+					<button class="work-close">Close</button>
+					<div class="work-slider">
+						<img class="img-flex-square" src="http://placehold.it/200x200" alt="About">
+					</div>
+					<div class="work-text">
+						<h3>Title of this work</h3>
+						<p>ghwei lgheqio gnroi gnwrio gnwe igonewio</p>
+					</div>
+				</div>
+			</div>
+			<div class="work-wrapper unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
 				<img class="img-flex-square" src="http://placehold.it/200x200" alt="About">
 			</div>
-			<div>
-				<img class="img-flex-square" src="http://placehold.it/200x200" alt="About">
-			</div>
-			<div>
-				<img class="img-flex-square" src="http://placehold.it/200x200" alt="About">
 			</div>
 			
 		</section>
 	</div>
 	
 	
-	<div class="unit unit-xs-1 unit-s-1 unit-m-1-1 unit-l-1-1">
+	<div>
 		<section class="office3">
 			<img class="img-flex" src="http://placehold.it/1500x800" alt="Office">
 		</section>
@@ -83,18 +108,19 @@
 	
 <footer class="footer">
 <h1 class="contact">Wanna work together?</h1>
-<div class="unit unit-xs-1 unit-s-1 unit-m-1-1 unit-l-1-1">
+<div>
 	<ul class="top">	
 		<li><a href="">Top</a></li>
 	</ul>
 </nav>
 </div>
 
-<div class="unit unit-xs-1 unit-s-1 unit-m-1-1 unit-l-1-1">				
+<div>				
 <p class="copyright">Copyright Brittany Robertson ©<br></p>
 </div>
 </footer>		
 
-
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
