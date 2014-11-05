@@ -78,6 +78,10 @@ html, body {
 	font-size: 50px;
 	position: absolute;
 	text-align: center;
+	left: 50%;
+	margin-right: -50%;
+	padding-top: 120px;
+	transform: translate(-50%, -50%);
 }
 
 ul#list-nav {
@@ -130,6 +134,8 @@ section {
 	display: block;
 	width: 100%;
 	text-align: center;
+	padding: 30px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
 }
 
 .office {
