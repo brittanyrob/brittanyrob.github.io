@@ -134,7 +134,6 @@ section {
 	display: block;
 	width: 100%;
 	text-align: center;
-	padding: 30px;
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
 }
 
@@ -153,6 +152,7 @@ section {
 
 .office3 {
 	margin-top: 300px;
+	display: block;
 }
 
 footer {
@@ -179,6 +179,8 @@ footer {
 	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
 	font-size: 60px;
 	color: #fff;
+	display: block;
+	width: 100%;
 }
 
 .work-wrapper{
