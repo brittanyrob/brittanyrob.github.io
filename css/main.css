@@ -32,10 +32,10 @@ html, body {
 
 
 .img-flex-square {
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	display: block;
-    margin-left: auto;
-    margin-right: auto
+	padding: -30px;
+	
 }
 
 .unit {
@@ -80,7 +80,7 @@ html, body {
 	text-align: center;
 	left: 50%;
 	margin-right: -50%;
-	padding-top: 120px;
+	padding-top: 220px;
 	transform: translate(-50%, -50%);
 }
 
@@ -134,6 +134,14 @@ section {
 	display: block;
 	width: 100%;
 	text-align: center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	padding-top: 90px;
+}
+
+.iconstext {
+	font-size: 50px;
+	text-align: center;
+	padding-bottom: 90px;
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
 }
 
