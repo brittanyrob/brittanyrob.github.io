@@ -69,7 +69,7 @@ html, body {
 	padding: 50px;
 	display: inline;
 	margin-left: auto;
-   	margin-right: auto
+   	margin-right: auto;
 }
 }
 
@@ -168,19 +168,23 @@ footer {
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
 	font-size: 20px;
 	font-color: #fff;	
+	text-align: center;
+	list-style:none;
 }
 
 .copyright {
 	font-size: 12px;
 	color: #fff;
+	padding-bottom: 20px;
+	text-align: center;
 }
 
 .contact {
 	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
-	font-size: 60px;
+	font-size: 100px;
 	color: #fff;
-	display: block;
 	width: 100%;
+	padding-top: 100px;
 }
 
 .work-wrapper{
