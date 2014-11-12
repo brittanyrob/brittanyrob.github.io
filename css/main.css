@@ -6,19 +6,20 @@
 @-o-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
-html{
+html, body{
 	-moz-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	-o-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-}
-
-html, body {
 	font-family: sans serif;
 	width: 100%;
 	margin: 0;
 	padding: 0;
+}
+
+.masthead {
+	overflow: hidden;
 }
 
 .grid {
@@ -44,6 +45,10 @@ html, body {
 	width:100%;	
 }
 
+section {
+	overflow-x: hidden;
+}
+
 .aboutme {
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
 	font-size: 50px;
@@ -52,6 +57,10 @@ html, body {
 	left: 50%;
 	margin-right: -50%;
 	padding-top: 220px;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	width: 100%;
 }
@@ -62,7 +71,7 @@ ul#list-nav {
   padding:0;
   width:525px;
   position: absolute;
-  right: 0;
+  right:0;
   transform: translateX(500px);
   -webkit-animation: navslide 3000ms ease-out forwards;
   -moz-animation: navslide 3000ms ease-out forwards;
@@ -72,7 +81,7 @@ ul#list-nav {
 }
 
 ul#list-nav li {
-  display:inline
+  display:inline;
 }
 
 ul#list-nav li a {

@@ -4,40 +4,60 @@
 @-webkit-keyframes navslide{
 	
 	0%{
+		-webkit-transform: translateX(500px);
 		transform: translateX(500px);
 	}
 	100%{
+		-webkit-transform: translateX(0px);
 		transform: translateX(0px);
 	}
 }
 @-moz-keyframes navslide{
 	
 	0%{
+		-moz-transform: translateX(500px);
 		transform: translateX(500px);
 	}
 	100%{
+		-moz-transform: translateX(0px);
 		transform: translateX(0px);
 	}
 }
 @-o-keyframes navslide{
 	
 	0%{
+		-o-transform: translateX(500px);
 		transform: translateX(500px);
 	}
 	100%{
+		-o-transform: translateX(0px);
 		transform: translateX(0px);
 	}
 }
 @-ms-keyframes navslide{
 	
 	0%{
+		-ms-transform: translateX(500px);
 		transform: translateX(500px);
 	}
 	100%{
+		-ms-transform: translateX(0px);
 		transform: translateX(0px);
 	}
 
 }
+@keyframes navslide{
+	
+	0%{
+		transform: translateX(500px);
+	}
+	100%{
+		transform: translateX(0px);
+		
+	}
+
+}
+
 
 
 
