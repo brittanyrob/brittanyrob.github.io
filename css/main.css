@@ -38,7 +38,7 @@ html, body{
 
 .img-flex-square {
 	margin-bottom: 40px;
-	
+	width: 100%;
 }
 
 .unit {
@@ -246,5 +246,32 @@ footer {
 	.work-wrapper-reverse .work-text{
 		float: right;
 	}
-	
+}
+
+.social {
+  list-style:none;
+  margin:50px;
+  padding:0;
+  right:0;
+  display: inline;
+}
+
+ul# social li {
+  display:inline;
+}
+
+ul# social li a {
+  text-decoration:none;
+  padding:5px 0;
+  width:100px;
+  color:#fff;
+  float:right;
+  text-align:center;
+  font-family: "Libre Baskerville", "ITC Esprit Book";
+  display: inline;
+}
+
+li {
+	display: inline;
+	padding: 20px;
 }
