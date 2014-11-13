@@ -245,7 +245,7 @@ footer {
 
 .contact {
 	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
-	font-size: 100px;
+	font-size: 80px;
 	color: #fff;
 	text-align: center;
 }
@@ -283,13 +283,14 @@ li {
 }
 
 .icons {
-	background-color: #C91619;
+	background-color: #9A9595;
 	padding-top: 90px;
 	margin-top: 90px;
 }
 
 .icon-image {
 	position: absolute;
+	text-align: center;
 }
 
 .email a {
