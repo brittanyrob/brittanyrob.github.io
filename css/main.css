@@ -328,8 +328,21 @@ h2 {
 	text-align: center !important;
 	position: relative;
 	z-index: 2;
+	opacity: 1;
+   filter: alpha(opacity=100);
 }
 
+.icon-top:hover{
+	width: 250px;
+	margin-bottom: -120px;
+    margin-left: auto !important;;
+    margin-right: auto !important;;
+	text-align: center !important;
+	position: relative;
+	z-index: 2;
+   opacity: 0.5;
+   filter: alpha(opacity=30);
+}
 	
 a {
 	text-decoration: none !important;
