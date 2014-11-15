@@ -151,6 +151,7 @@ section {
 .office3 {
 	display: block;
 	margin-bottom: -4px;
+	margin-top: 130px;
 }
 
 .work-wrapper{
@@ -242,7 +243,7 @@ section {
 .copyright {
 	font-size: 10px;
 	color: #fff;
-	margin-top: 5px;
+	margin-top: 25px;
 	margin-bottom: 20px;
 	text-align: center;
 }
@@ -316,17 +317,17 @@ h2 {
 }
 
 .icon {
-	width: 150px;
-	padding-left: .5rem;
-	padding-right: .5rem;
+	width: 100px;
+	padding-left: 2rem;
+	padding-right: 2rem;
 	text-decoration: none !important;
 	margin-top: 10px;
 	text-align: center;
 }
 
 .icon-top {
-	width: 300px;
-	margin-top: -170px;
+	width: 250px;
+	margin-top: -190px;
     display: block;
     margin-left: auto !important;;
     margin-right: auto !important;;
