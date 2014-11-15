@@ -53,6 +53,7 @@ html, body{
 
 section {
 	overflow-x: hidden;
+	padding: 0;
 }
 
 .aboutme {
@@ -69,6 +70,11 @@ section {
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	width: 100%;
+	margin-bottom: -4px;
+}
+
+.about {
+	margin-bottom: -4px;
 }
 
 ul#list-nav {
@@ -134,20 +140,17 @@ section {
 
 .office {
 	display: block;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-bottom: -4px;
 }
 
 .office2 {
 	display: block;
-	margin-top: 10px;
-	margin-bottom: 20px;
-	
+	margin-bottom: -4px;
 }
 
 .office3 {
-	margin-top: 300px;
 	display: block;
+	margin-bottom: -4px;
 }
 
 .work-wrapper{
@@ -228,12 +231,12 @@ section {
 }
 
 .top {
-  transform: translateX(500px);
-  -webkit-animation: footerslide 5000ms ease-out forwards;
-  -moz-animation: footerslide 5000ms ease-out forwards;
-  -o-animation: footerslide 5000ms ease-out forwards;
-  -ms-animation: footerslide 5000ms ease-out forwards;
-  animation: footerslide 5000ms ease-out forwards;
+  position: absolute !important;
+  margin-top: -181.5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
 }
 
 .copyright {
@@ -320,10 +323,17 @@ h2 {
 	margin-top: 10px;
 	text-align: center;
 }
+
+.icon-top {
+	width: 300px;
+	margin-top: -170px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 	
 a {
 	text-decoration: none !important;
-	
 }
 	
 	
