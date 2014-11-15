@@ -38,7 +38,8 @@ html, body{
 
 .img-flex-square {
 	margin-bottom: 40px;
-	width: 100%;
+	margin-top: 40px;
+	width: 80%;
 }
 
 .unit {
@@ -164,8 +165,7 @@ section {
 }
 
 .work-info{
-	border: 1px solid #f00;
-	background-color: rgba(255,0,0,0.3);
+	background-color: #474242;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -198,7 +198,7 @@ section {
 	
 	.work-slider{
 		float: left;
-		width: 50%;	
+		width: 39.3%;
 	}
 	
 	.work-text{
@@ -228,23 +228,24 @@ section {
 }
 
 .top {
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
-	font-size: 20px;
-	font-color: #fff;	
-	text-align: center;
-	list-style:none;
+  transform: translateX(500px);
+  -webkit-animation: footerslide 5000ms ease-out forwards;
+  -moz-animation: footerslide 5000ms ease-out forwards;
+  -o-animation: footerslide 5000ms ease-out forwards;
+  -ms-animation: footerslide 5000ms ease-out forwards;
+  animation: footerslide 5000ms ease-out forwards;
 }
 
 .copyright {
-	font-size: 12px;
+	font-size: 10px;
 	color: #fff;
-	margin-top: 50px;
-	text-align: center;
+	margin-top: 20px;
 	margin-bottom: 40px;
+	text-align: center;
 }
 
 .contact {
-	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-family: "American Captain";
 	font-size: 80px;
 	color: #fff;
 	text-align: center;
@@ -289,10 +290,16 @@ li {
 	display: block;
 	text-decoration: none !important;
 	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
-	font-size: 40px;
+	font-size: 25px;
 	color: #fff;
 	text-align: center;
 }
+
+.email a:hover {
+  background:#a2b3a1;
+  color:#000
+}
+
 
 h2 {
 	display: block;
@@ -310,6 +317,8 @@ h2 {
 	padding-left: .5rem;
 	padding-right: .5rem;
 	text-decoration: none !important;
+	margin-top: 30px;
+	text-align: center;
 }
 	
 a {
