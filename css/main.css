@@ -221,7 +221,7 @@ section {
 	background-color: #5B5959; 
 	text-align: center;
 	font-size: 0.9em;
-	padding-top: 80px;
+	padding-top: 50px;
 	display: block;
 	width: 100%;
 	text-decoration: none;
@@ -239,8 +239,8 @@ section {
 .copyright {
 	font-size: 10px;
 	color: #fff;
-	margin-top: 20px;
-	margin-bottom: 40px;
+	margin-top: 5px;
+	margin-bottom: 20px;
 	text-align: center;
 }
 
@@ -317,7 +317,7 @@ h2 {
 	padding-left: .5rem;
 	padding-right: .5rem;
 	text-decoration: none !important;
-	margin-top: 30px;
+	margin-top: 10px;
 	text-align: center;
 }
 	
