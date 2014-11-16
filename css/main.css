@@ -150,7 +150,7 @@ section {
 
 .office3 {
 	display: block;
-	margin-bottom: -138px;
+	margin-bottom: -213px;
 	margin-top: 130px;
 }
 
@@ -335,7 +335,8 @@ h2 {
 
 .icon-top {
 	width: 250px;
-	margin-bottom: -120px;
+	margin-top: 40px;
+	margin-bottom: -159px;
     margin-left: auto !important;;
     margin-right: auto !important;;
 	text-align: center !important;
