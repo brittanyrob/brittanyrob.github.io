@@ -2,6 +2,7 @@ var $win = $(window);
 var $aboutmeSection =$('.aboutme');
 var $workItem=$(".work-item");
 var $workClose = $('.work-close');
+var $workcloseReverse = $('.work-close-reverse');
 
 
 $win.on('scroll', function () {
@@ -21,6 +22,10 @@ $workItem.on("click",function () {
 	$(this).siblings(".work-info").addClass("on");
 });
 
-$workClose.on('click', function () {
+$workClose.on("click", function () {
+	$(this).parent().removeClass('on');
+});
+
+$workcloseReverse.on("click", function () {
 	$(this).parent().removeClass('on');
 });
