@@ -214,6 +214,13 @@ section {
 		margin-left: 145px;
 	}
 	
+	.work-text-reverse{
+		float: left;
+		width: 50%;
+		margin-top: 30px;
+		margin-right: 145px;
+	}
+	
 	.work-wrapper-reverse .work-slider{
 		float: right;	
 	}
@@ -444,7 +451,7 @@ a {
 	position: absolute !important;
 	left: 50%;
 	bottom: 25px;
-	margin-left: -36px;
+	margin-left: -55px;
 	border-radius: 20px;
 	opacity: 0.3;
 	cursor: pointer;
@@ -457,7 +464,7 @@ a {
 	position: absolute !important;
 	left: 50%;
 	bottom: 25px;
-	margin-left: -12px;
+	margin-left: -30px;
 	border-radius: 20px;
 	opacity: 0.3;
 	cursor: pointer;
@@ -470,7 +477,7 @@ a {
 	position: absolute !important;
 	left: 50%;
 	bottom: 25px;
-	margin-left: 12px;
+	margin-left: -5px;
 	border-radius: 20px;
 	opacity: 0.3;
 	cursor: pointer;
@@ -483,7 +490,7 @@ a {
 	position: absolute !important;
 	left: 50%;
 	bottom: 25px;
-	margin-left: 36px;
+	margin-left: 20px;
 	border-radius: 20px;
 	opacity: 0.3;
 	cursor: pointer;
