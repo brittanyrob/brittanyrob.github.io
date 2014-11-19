@@ -401,6 +401,8 @@ h2 {
 	text-align: center !important;
 	position: relative;
 	z-index: 2;
+	opacity: 1;
+   filter: alpha(opacity=100);
 }
 
 .icon-top:hover{
@@ -412,7 +414,8 @@ h2 {
 	text-align: center !important;
 	position: relative;
 	z-index: 2;
-	background:url(../img/top-img-hover.svg);
+   opacity: 0.5;
+   filter: alpha(opacity=30);
 }
 	
 a {
