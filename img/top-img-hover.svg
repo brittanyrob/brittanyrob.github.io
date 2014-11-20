@@ -3,7 +3,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 792 612" enable-background="new 0 0 792 612" xml:space="preserve">
-<polygon fill="#BD8982" points="258.1,383.6 260.2,240.9 384.9,171.3 507.4,244.5 505.3,387.2 380.5,456.8 "/>
+<circle fill="#868982" cx="381" cy="312.2" r="121.5"/>
 <rect x="340.1" y="290" fill="none" width="170.2" height="73.1"/>
 <g enable-background="new    ">
 	<path fill="#FFFFFF" d="M355.7,297.4l-0.2,11.8c0,5.6,0.5,10.3,1.5,14.1v0.1c-0.4,1.9-0.6,4.2-0.6,7l0.8,16.5c0,3-0.9,4.5-2.6,4.5
@@ -23,6 +23,4 @@
 		c-0.4-1.7-0.5-4.2-0.5-7.5l-0.2-23.5L399.3,311z M404.5,300.7l-0.5,17.9v0.2c3.7-0.5,5.6-5.6,5.6-15.5c0-3.6-0.8-5.9-2.4-6.9
 		c-0.7-0.5-1.6-0.7-2.7-0.7V300.7z"/>
 </g>
-<polygon fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="270.4,377.6 272.3,249 384.6,186.5 494.8,252.4 493,380.9 
-	380.7,443.4 "/>
 </svg>
