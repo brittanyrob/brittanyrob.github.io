@@ -32,16 +32,6 @@ html, body{
 	overflow: hidden;
 }
 
-.img-flex {
-	width: 100%;
-}
-
-
-.img-flex-square {
-	margin-bottom: 40px;
-	margin-top: 40px;
-	width: 80%;
-}
 
 .unit {
 	background-color: none;
@@ -124,11 +114,6 @@ section {
 }
 
 .work {
-	display: block;
-	width: 100%;
-	text-align: center;
-	font-family: 'Droid Serif', serif;
-	padding-top: 90px;
 }
 
 .iconstext {
@@ -156,120 +141,7 @@ section {
 	position: relative;
 }
 
-.work-wrapper{
-	position: relative;
-}
 
-.work-wrapper-reverse{
-}
-
-.work-item{
-	background-color: transparent;
-	margin: 0;
-	border: 0;
-	padding: 0;
-}
-
-.work-info{
-	background-color: #474242;
-	position: absolute;
-	top: 0;
-	left: 0;
-	xbottom: 0;
-	right: 0;
-	z-index: 1000;
-	display: none;
-}
-
-.work-info.on {
-	display: block;
-}
-
-.work-wrapper-reverse .work-info{
-	left: -100%;
-	right: 0;
-}
-
-
-@media only screen and (min-width: 38em) {
-	
-	.work-info{
-		bottom: 0;
-		right: -100%;
-	}
-	
-	.work-wrapper-reverse .work-info{
-		left: -100%;
-		right: 0;
-	}
-	
-	.work-slider{
-		float: left;
-		width: 39.3%;
-	}
-	
-	.work-text{
-		float: left;
-		width: 50%;
-		margin-top: 30px;
-		margin-left: 145px;
-	}
-	
-	.work-text-reverse{
-		float: left;
-		width: 50%;
-		margin-top: 30px;
-		margin-right: 145px;
-	}
-	
-	.work-wrapper-reverse .work-slider{
-		float: right;	
-	}
-	
-	.work-wrapper-reverse .work-text{
-		float: right;
-	}
-	
-	.work-close{
-		margin-top: 40px;
-		margin-left: 690px;
-		font-family: 'Droid Serif', serif;
-		font-size: 30px;
-		color:#a2b3a1;
-		background: none;
-		border: none;
-	}
-	
-	.work-close:hover {
-		margin-top: 40px;
-		margin-left: 690px;
-		font-family: 'Droid Serif', serif;
-		font-size: 30px;
-		color:#fff;
-		background: none;
-		border: none;
-	}
-	
-	.work-close-reverse{
-		margin-top: 40px;
-		margin-right: 690px;
-		font-family: 'Droid Serif', serif;
-		font-size: 30px;
-		color:#a2b3a1;
-		background: none;
-		border: none;
-	}
-	
-	.work-close-reverse:hover {
-  	margin-top: 40px;
-	margin-right: 690px;
-	font-family: 'Droid Serif', serif;
-	font-size: 30px;
-	color:#fff;
-	background: none;
-	border: none;
-	}
-}
 
 /* FOOTER -------------------------------------------*/
 
@@ -407,123 +279,5 @@ a {
 	margin-top: -100px;
 }	
 
-	
-/* SLIDESHOW */
-
-.slider-wrapper{
-	width: 540px;
-	height: 388px;
-	margin: 50px auto;
-	margin-left: 80px;
-	position: relative;
-	margin-bottom: 0px;
-	background: rgba(0,0,0,0.5);
-	overflow: hidden;
-}
-
-.slider-wrapper-reverse{
-	width: 540px;
-	height: 388px;
-	margin: 50px auto;
-	margin-right: 80px;
-	position: relative;
-	margin-bottom: 0px;
-	background: rgba(0,0,0,0.5);
-	overflow: hidden;
-}
 		
-.s1{
-	padding: 6px;
-	background: #FFFFFF;
-	position: absolute !important;
-	left: 50%;
-	bottom: 25px;
-	margin-left: -55px;
-	border-radius: 20px;
-	opacity: 0.3;
-	cursor: pointer;
-	z-index: 999;
-}
-				
-.s2{
-	padding: 6px;
-	background: #FFFFFF;
-	position: absolute !important;
-	left: 50%;
-	bottom: 25px;
-	margin-left: -30px;
-	border-radius: 20px;
-	opacity: 0.3;
-	cursor: pointer;
-	z-index: 999;
-}
-				
-.s3{
-	padding: 6px;
-	background: #FFFFFF;
-	position: absolute !important;
-	left: 50%;
-	bottom: 25px;
-	margin-left: -5px;
-	border-radius: 20px;
-	opacity: 0.3;
-	cursor: pointer;
-	z-index: 999;
-}
-				
-.s4{
-	padding: 6px;
-	background: #FFFFFF;
-	position: absolute !important;
-	left: 50%;
-	bottom: 25px;
-	margin-left: 20px;
-	border-radius: 20px;
-	opacity: 0.3;
-	cursor: pointer;
-	z-index: 999;
-}
-				
-.s1:hover, .s2:hover, .s3:hover, .s4:hover{ opacity: 1;}
-				
-.inner-wrapper{
-	width: 550px;
-	height: 390px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	margin-bottom: 0px;
-	overflow: hidden;
-}
-
-.control{ display: none;}
-				
-.Slide1:checked ~ .overflow-wrapper{ margin-left: 0%; }
-.Slide2:checked ~ .overflow-wrapper{ margin-left: -100%; }
-.Slide3:checked ~ .overflow-wrapper{ margin-left: -200%; }
-.Slide4:checked ~ .overflow-wrapper{ margin-left: -300%; }
-				
-.Slide1:checked + .s1 { opacity: 1; }
-.Slide2:checked + .s2 { opacity: 1; }
-.Slide3:checked + .s3 { opacity: 1; }
-.Slide4:checked + .s4 { opacity: 1; }
-				
-.overflow-wrapper{
-	width: 1000%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	/* overflow-y: hidden; */
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
-		
-.slide img{
-	width: 10%;
-	float: left;
-}
 						
