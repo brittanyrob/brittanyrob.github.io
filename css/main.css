@@ -277,12 +277,11 @@ section {
 }
 
 .top {
-	width: 6.5em;
+	width: 6.9em;
 	text-align: center;
-	margin-top: 25px;
+	margin-top: 17px;
 	float: right;
-	margin-right: 300px;
-}
+	margin-right: 300px;}
 
 .top-button {
  text-align: center;	
