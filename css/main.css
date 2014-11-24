@@ -230,20 +230,20 @@ section {
 	
 	.work-close{
 		margin-top: 40px;
-		margin-left: 690px;
+		margin-left: 1150px;
 		font-family: 'Droid Serif', serif;
 		font-size: 30px;
-		color:#a2b3a1;
+		color:#fff;
 		background: none;
 		border: none;
 	}
 	
 	.work-close:hover {
 		margin-top: 40px;
-		margin-left: 690px;
+		margin-left: 1150px;
 		font-family: 'Droid Serif', serif;
 		font-size: 30px;
-		color:#fff;
+		color:#a2b3a1;
 		background: none;
 		border: none;
 	}
@@ -409,18 +409,22 @@ a {
 
 
 article {
-	margin:0 auto;
-	max-width:500px;
-	padding:2em 0;
+	/* margin: 0 auto; */
+	max-width: 500px;
+	padding: 5em 0;
+	margin-left: 70px;
+	margin: -122px 10px 150px 50px;
 }
 
 .carousel-wrapper { position:relative; }
 
 [data-carousel] {
-	height:0;
-	overflow:hidden;
-	padding-bottom:40%;
-	position:relative;
+height: 0;
+overflow: hidden;
+padding-bottom: 100%;
+position: relative;
+/* float: left; */
+/* margin: 10px 10px 30px 0px; */
 }
 
 .carousel-wrapper .pager { text-align:center; }
@@ -431,8 +435,6 @@ article {
 	cursor:pointer;
 	display:inline-block;
 	height:12px;
-	margin-right:4px;
-	width:12px;
 }
 
 .carousel-wrapper .pager span:last-child { margin-right:0; }
@@ -497,9 +499,10 @@ article {
 
 /***** slideLeft *****/
 [data-carousel-effect="slideLeft"] .slide {
-	position:absolute;
+	position: absolute;
 	transform: translateX(100%);
-	transition:none;
+	transition: none;
+	width: 550px;
 }
 
 [data-carousel-effect="slideLeft"] .instant-left { transform: translateX(-100%); }
@@ -509,9 +512,9 @@ article {
 [data-carousel-effect="slideLeft"] .slide.transition-out { transition: transform .5s linear; }
 
 [data-carousel-effect="slideLeft"] .slide.transition-in.transition-left, 
-[data-carousel-effect="slideLeft"] .slide.transition-in.transition-right { transform: translateX(0); }
+[data-carousel-effect="slideLeft"] .slide.transition-in.transition-right { transform: translateX(100); }
 
-[data-carousel-effect="slideLeft"] .slide.transition-out.transition-left { transform: translateX(-100%); }
+[data-carousel-effect="slideLeft"] .slide.transition-out.transition-left { transform: translateX(-50%); }
 /***** slideLeft Older Browsers *****/
 
 
@@ -687,5 +690,7 @@ ul#list-nav li a {
 ul#list-nav li a:hover {
   background:#a2b3a1;
   color:#000
-}	
+}
+
+	
 }
