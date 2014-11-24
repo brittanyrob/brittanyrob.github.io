@@ -134,7 +134,7 @@ section {
 .iconstext {
 	font-size: 50px;
 	text-align: center;
-	padding-bottom: 90px;
+	padding-bottom: 20px;
 	font-family: 'Droid Serif', serif;
 	width: 100%;
 }
@@ -190,7 +190,6 @@ section {
 	right: 0;
 }
 
-
 @media only screen and (min-width: 38em) {
 	
 	.work-info{
@@ -209,8 +208,11 @@ section {
 	}
 	
 	.work-text{
-		float: left;
-		width: 60%;
+		float: right;
+		width: 50%;
+		margin-top: -750px;
+		font-family: 'Droid Serif', serif;
+		color: #fff;
 	}
 	
 	.work-text-reverse{
@@ -410,7 +412,7 @@ a {
 
 article {
 	/* margin: 0 auto; */
-	max-width: 500px;
+	max-width: 540px;
 	padding: 5em 0;
 	margin-left: 70px;
 	margin: -122px 10px 150px 50px;
@@ -684,7 +686,6 @@ ul#list-nav li a {
 	text-align: center;
 	font-family: 'Droid Serif', serif;
 	font-size: 25px;
-}
 }
 
 ul#list-nav li a:hover {
