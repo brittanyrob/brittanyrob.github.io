@@ -181,3 +181,8 @@ var opts = {
     swipe : true
 };
 makeBSS('.demo1', opts);
+makeBSS('.demo2', opts);
+makeBSS('.demo3', opts);
+
+
+
