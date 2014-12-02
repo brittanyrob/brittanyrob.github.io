@@ -184,5 +184,10 @@ makeBSS('.demo1', opts);
 makeBSS('.demo2', opts);
 makeBSS('.demo3', opts);
 
+$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+
 
 
