@@ -56,13 +56,18 @@ background-image: url('../img/banner.png');
 overlow: hidden !important;
 }
 
-/* Desktop Parallax Photo */
-@media (min-width: 651px){
-    .video { background-image: url('../img/banner.png'); }
-}
-/* Mobile Parallax Photo */
-@media (max-width: 650px) {
-    .video { background-image: url('../img/banner.png'); height: 300px; }
+.footer-image {
+background-size: 1700px;
+padding: -1rem 0;
+/* margin-top:-rem; */
+background-attachment: fixed;
+display: block;
+background-image: url('../img/footer-image.png');
+overlow: hidden !important;
+}	
+
+video-img {
+	display: hidden;
 }
 .grid {
 	overflow: hidden;
@@ -90,23 +95,6 @@ overlow: hidden !important;
 section {
 	overflow-x: hidden;
 	padding: 0;
-}
-
-.aboutme {
-	font-family: 'Droid Serif', serif;
-	font-size: 50px;
-	position: absolute;
-	text-align: center;
-	left: 50%;
-	margin-right: -50%;
-	padding-top: 220px;
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	width: 100%;
-	margin-bottom: -4px;
 }
 
 .about {
@@ -303,9 +291,6 @@ section {
 
 /* FOOTER -------------------------------------------*/
 
-.footer {
-}
-
 .top {
 	width: 6.5em;
 	margin-left:300px;
@@ -388,7 +373,6 @@ li {
 }
 
 .email a:hover {
-  background:#868982;
   color:#868982;
 }
 
@@ -435,14 +419,6 @@ h3 {
 a {
 	text-decoration: none !important;
 }
-	
-.footer-image {
-	
-	width: 100%;
-	display: block;
-	margin-top: 120px;
-}	
-
 	
 /* SLIDESHOW */
 
@@ -640,12 +616,7 @@ h2 {
 	
 a {
 	text-decoration: none !important;
-}
-	
-.footer-image {
-	width: 100%;
-	display: block;
-}
+}	
 
 ul#list-nav {
 	list-style: none;
