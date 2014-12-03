@@ -50,7 +50,7 @@ padding: -1rem 0;
 /* margin-top:-rem; */
 background-attachment: fixed;
 display: block;
-margin-top: -1800px;
+margin-top: -1750px;
 /* margin-bottom: -1900px; */
 background-image: url('../img/banner.png');
 overlow: hidden !important;
@@ -114,11 +114,11 @@ section {
 }
 
 ul#list-nav {
-  list-style: none;
-	margin: 100px;
+	list-style: none;
+	margin: 70px;
 	padding: 0;
 	right: 0;
-	margin-top: 560px;
+	margin-top: 80px;
   transform: translateX(500px);
   -webkit-animation: navslide 3000ms ease-out forwards;
   -moz-animation: navslide 3000ms ease-out forwards;
