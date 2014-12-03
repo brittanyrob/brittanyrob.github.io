@@ -4,6 +4,7 @@ var $workItem=$(".work-item");
 var $workClose = $('.work-close');
 var $workcloseReverse = $('.work-close-reverse');
 var $iconTop = $('.icon-top');
+var $video = $('.video');
 
 
 $win.on('scroll', function () {
@@ -189,5 +190,7 @@ $(window).load(function() {
 		$(".se-pre-con").fadeOut("slow");;
 	});
 
-
+$('.video').parallax({
+speed : 0.15
+});
 

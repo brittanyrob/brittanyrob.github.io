@@ -42,7 +42,24 @@ if it's not present, don't show loader */
 	font-family: 'Droid Serif', serif;
 	
 }
+/* PARALLAX HOMEPAGE */
+.video {
+	background-size: 1400px;
+	padding: 20rem 0;
+	background-attachment: fixed;
+	display: block;
+	margin: 0 auto;
+	background-image: url('../img/banner.png');
+}
 
+/* Desktop Parallax Photo */
+@media (min-width: 651px){
+    .video { background-image: url('../img/banner.png'); }
+}
+/* Mobile Parallax Photo */
+@media (max-width: 650px) {
+    .video { background-image: url('../img/banner.png'); height: 300px; }
+}
 .grid {
 	overflow: hidden;
 }
@@ -50,7 +67,6 @@ if it's not present, don't show loader */
 .img-flex {
 	width: 100%;
 }
-
 
 .img-flex-square {
 	margin-bottom: 40px;
@@ -124,9 +140,6 @@ ul#list-nav li a {
 ul#list-nav li a:hover {
   background:#a2b3a1;
   color:#000;
-}
-
-.video {
 }
 
 .video img{
