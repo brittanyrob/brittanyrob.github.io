@@ -686,6 +686,15 @@ h4 {
    filter: alpha(opacity=30);
 }
 
+h2 {
+	display: block;
+	font-size: 4em;
+	text-align: center;
+	margin-top: 100px;
+	text-decoration: none !important;
+	font-weight: bold;
+	color: #868982;
+}
 	
 a {
 	text-decoration: none !important;
