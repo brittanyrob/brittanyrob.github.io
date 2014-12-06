@@ -56,18 +56,6 @@ background-image: url('../img/banner-final.jpg');
 overlow: hidden !important;
 }
 
-.footer-image {
-background-size: 1700px;
-padding: -1rem 0;
-/* margin-top:-rem; */
-background-attachment: fixed;
-display: block;
-background-image: url('../img/footer-image.jpg');
-overlow: hidden !important;
-height: 600px;
-padding-left: 1000px;
-}	
-
 .grid {
 	overflow: hidden;
 }
@@ -133,7 +121,42 @@ ul#list-nav li a:hover {
   background:#dbb7be;
   color:#000;
 }
+/* SMALL DESKTOP --------------------------------*/
+@media only screen and (max-width: 75em) {
+ul#list-nav {
+	list-style: none;
+	margin: 90px;
+	padding: 0;
+	right: 0;
+	margin-top: 650px;
+  transform: translateX(500px);
+  -webkit-animation: navslide 3000ms ease-out forwards;
+  -moz-animation: navslide 3000ms ease-out forwards;
+  -o-animation: navslide 3000ms ease-out forwards;
+  -ms-animation: navslide 3000ms ease-out forwards;
+  animation: navslide 3000ms ease-out forwards;
+}
 
+ul#list-nav li {
+  display:inline;
+}
+
+ul#list-nav li a {
+	text-decoration: none;
+	padding: 10px 0;
+	width: 100px;
+	color: #fff;
+	float: right;
+	text-align: center;
+	font-family: 'Droid Serif', serif;
+	font-size: 1.2rem;
+}
+
+ul#list-nav li a:hover {
+  background:#dbb7be;
+  color:#000;
+}
+}
 section {
 	padding: 0rem 0;
 }
@@ -206,9 +229,10 @@ section {
 	right: 0;
 }
 
+
 /* DESKTOP -------------------------------------------------------*/
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 85em) {
 	
 	.work-info{
 		bottom: 0;
@@ -374,6 +398,7 @@ h3 {
 	border-width: medium;
 	border-color: #dbb7be;
 	padding: 30px;
+	background-color: rgba(0,0,0,0.4);
 }
 
  h3:hover {
