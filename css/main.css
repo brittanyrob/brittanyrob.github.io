@@ -6,49 +6,21 @@
 @-o-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
-html, body{
-	-moz-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	-o-text-size-adjust: 100%;
-	text-size-adjust: 100%;
-	font-family: 'Droid Serif', serif;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	top: 0;
-}
-
-.no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
-.se-pre-con {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-	background: url(../img/ajax-loader.gif) center no-repeat #fff;
-}
 
 /* Smartphones (portrait and landscape) ----------- */
-
-.masthead {
-	overflow: hidden;
-	width:100%;
-	font-family: 'Droid Serif', serif;	
-}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
 	
 .video {
-background-size: 400px;
+background-size: 700px;
 padding: -1rem 0;
-/* margin-top: -rem; */
+/* margin-top:-rem; */
 background-attachment: fixed;
 display: block;
-margin-top: -1050px;
+margin-top: -1280px;
 /* margin-bottom: -1900px; */
-background-image: url('../img/banner-mobile.jpg');
+background-image: url('../img/banner-final.jpg');
 overlow: hidden !important;
 }
 
@@ -63,38 +35,6 @@ overlow: hidden !important;
 height: 600px;
 padding-left: 1000px;
 }	
-
-.grid {
-	overflow: hidden;
-}
-
-.img-flex {
-	width: 100%;
-}
-
-.img-flex-square {
-	margin-bottom: 40px;
-	margin-top: 40px;
-	width: 80%;
-}
-
-.unit {
-	background-color: none;
-	width: 100%
-}
-
-.unit-s-1{
-	width:100%;	
-}
-
-section {
-	overflow-x: hidden;
-	padding: 0;
-}
-
-.about {
-	margin-bottom: -4px;
-}
 
 .top {
 width: 1em;
@@ -113,7 +53,6 @@ font-family: 'Droid Serif', serif;
 .top-button {
  text-align: center;	
 }
-
 
 .copyright {
 	color: #fff;
@@ -413,8 +352,8 @@ border-bottom-right-radius: 3px;
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px;
 	margin-top: -198px;
-}		
-
+}
+}
 /* iPads (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 768px) 
@@ -845,14 +784,38 @@ ul#list-nav li a:hover {
 }
 }
 /* Big Screen */
-@media only screen 
-and (min-width : 1824px) {
+html, body{
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	font-family: 'Droid Serif', serif;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+}
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../img/ajax-loader.gif) center no-repeat #fff;
+}
 
 .masthead {
 	overflow: hidden;
 	position:absolute;
 	width:100%;
-	font-family: 'Droid Serif', serif;	
+	font-family: 'Droid Serif', serif;
+	
 }
 
 .video {
@@ -1220,7 +1183,6 @@ border-bottom-right-radius: 3px;
 section {
 	padding: 0rem 0;
 }
-}
 
 .work {
 	display: block;
@@ -1289,5 +1251,5 @@ section {
 	left: -100%;
 	right: 0;
 }
-}
+
 
