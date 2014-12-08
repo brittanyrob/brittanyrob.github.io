@@ -49,9 +49,7 @@ html, body{
 }
 
 .img-flex-square {
-	margin-bottom: 40px;
-	margin-top: 40px;
-	width: 80%;
+	width: 100%;
 }
 
 .unit {
@@ -429,9 +427,6 @@ section {
 	position: relative;
 }
 
-.work-wrapper-reverse{
-}
-
 .work-item{
 	background-color: transparent;
 	margin: 0;
@@ -452,11 +447,6 @@ section {
 
 .work-info.on {
 	display: block;
-}
-
-.work-wrapper-reverse .work-info{
-	left: -100%;
-	right: 0;
 }
 
 /* Smartphones  ----------- */
@@ -650,14 +640,14 @@ li {
 }
 
 .email {
-background-size: 499px;
+background-size: 450px;
 padding: -1rem 0;
 margin-top: -rem;
 background-attachment: fixed;
 display: block;
-background-image: url('../img/desk-mobile.jpg');
+background-image: url('../img/desk.jpg');
 overflow: hidden !important;
-height: 200px;
+height: 260px;
 }
 
 .email a {
@@ -678,7 +668,7 @@ margin-left: 70px;
 
 h2 {
 	display: block;
-	font-size: 1.9em;
+	font-size: 2.2rem;
 	/* margin-top: 30px; */
 	text-decoration: none !important;
 	-webkit-margin-before: 0.83em;
@@ -741,22 +731,37 @@ a {
 	text-decoration: none !important;
 }	
 
+.img-flex-square {
+width: 100%;
+}
+
 .office {
 	display: block;
 }
 
+.work-wrapper{
+	position: relative;
+}
+
+.work-item{
+	background-color: transparent;
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
 .work-info{
-		bottom: 0;
+		margin-bottom: -300px;
 		right: -100%;
 		background-color: #868982;
-	}
+}
 	
-	.work-slider{
+.work-slider{
 		float: left;
 		width: 100%;
-	}
+}
 	
-	.work-text{
+.work-text{
 /* float: right; */
 /* width: 50%; */
 /* margin-top: -350px; */
@@ -764,10 +769,21 @@ font-family: 'Droid Serif', serif;
 color: #fff;
 margin-right: 500px;
 margin-top:100px;
-	}
-	
+}
 
-	.work-close{
+.work-close{
+margin-top: 30px;
+/* margin-left: -70px; */
+font-family: 'Droid Serif', serif;
+font-size: 20px;
+color: #fff;
+background: none;
+border: none;
+/* position: absolute; */
+margin-right: 130px;
+}
+	
+.work-close:hover {
 	margin-top: 50px;
 	/* margin-left: -70px; */
 	font-family: 'Droid Serif', serif;
@@ -777,23 +793,9 @@ margin-top:100px;
 	border: none;
 	/* position: absolute; */
 	margin-right:180px;
-	}
-	
-	.work-close:hover {
-			margin-top: 50px;
-	/* margin-left: -70px; */
-	font-family: 'Droid Serif', serif;
-	font-size: 30px;
-	color:#fff;
-	background: none;
-	border: none;
-	/* position: absolute; */
-	margin-right:180px;
 	color:#dbb7be;
+}
 
-	}
-	
-	
 /* SLIDESHOW */
 
 .bss-slides{
@@ -806,8 +808,9 @@ margin-top:100px;
 }
 .bss-slides figure{
 position: absolute;
-top: -194px !important;
-width: 25%;
+top: -200px !important;
+width: 40%;
+margin-bottom: 50px;
 }
 .bss-slides figure:first-child{
   position: relative;
