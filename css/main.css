@@ -32,23 +32,23 @@ html, body{
 	background: url(../img/ajax-loader.gif) center no-repeat #fff;
 }
 
+/* Smartphones (portrait and landscape) ----------- */
+
 .masthead {
 	overflow: hidden;
 	width:100%;
-	font-family: 'Droid Serif', serif;
+	font-family: 'Droid Serif', serif;	
 }
-
-/* IPHONE */
-
+	
 .video {
-background-size: 700px;
+background-size: 400px;
 padding: -1rem 0;
-/* margin-top:-rem; */
+/* margin-top: -rem; */
 background-attachment: fixed;
 display: block;
-margin-top: -1480px;
+margin-top: -1050px;
 /* margin-bottom: -1900px; */
-background-image: url('../img/banner-final.jpg');
+background-image: url('../img/banner-mobile.jpg');
 overlow: hidden !important;
 }
 
@@ -64,6 +64,37 @@ height: 600px;
 padding-left: 1000px;
 }	
 
+.grid {
+	overflow: hidden;
+}
+
+.img-flex {
+	width: 100%;
+}
+
+.img-flex-square {
+	margin-bottom: 40px;
+	margin-top: 40px;
+	width: 80%;
+}
+
+.unit {
+	background-color: none;
+	width: 100%
+}
+
+.unit-s-1{
+	width:100%;	
+}
+
+section {
+	overflow-x: hidden;
+	padding: 0;
+}
+
+.about {
+	margin-bottom: -4px;
+}
 
 .top {
 width: 1em;
@@ -382,12 +413,12 @@ border-bottom-right-radius: 3px;
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px;
 	margin-top: -198px;
-}
+}		
 
-/* IPAD */
-
-@media only screen and (max-width: 1024px) {		
-
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
 .video {
 background-size: 1200px;
 padding: -1rem 0;
@@ -763,8 +794,9 @@ border-bottom-right-radius: 3px;
 	margin-top: -198px;
 }		
 }
-/* SMALL DESKTOP --------------------------------*/
-@media only screen and (max-width: 1280px) {
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
 
 .video {
 background-size: 1500px;
@@ -772,7 +804,7 @@ padding: -1rem 0;
 /* margin-top:-rem; */
 background-attachment: fixed;
 display: block;
-margin-top: -1390px;
+margin-top: -1590px;
 /* margin-bottom: -1900px; */
 background-image: url('../img/banner-final.jpg');
 overlow: hidden !important;
@@ -812,82 +844,16 @@ ul#list-nav li a:hover {
   color:#000;
 }
 }
-section {
-	padding: 0rem 0;
+/* Big Screen */
+@media only screen 
+and (min-width : 1824px) {
+
+.masthead {
+	overflow: hidden;
+	position:absolute;
+	width:100%;
+	font-family: 'Droid Serif', serif;	
 }
-
-.work {
-	display: block;
-	width: 100%;
-	text-align: center;
-	font-family: 'Droid Serif', serif;
-	padding-top: 30px;
-	margin-bottom: 100px;
-}
-
-.iconstext {
-	font-size: 50px;
-	text-align: center;
-	padding-bottom: 90px;
-	padding-bottom: 20px;
-	font-family: 'Droid Serif', serif;
-	width: 100%;
-}
-
-.office {
-	display: block;
-}
-
-.office2 {
-	display: block;
-	margin-bottom: -4px;
-}
-
-.office3 {
-	display: block;
-	margin-bottom: -90px;
-	margin-top: 130px;
-	position: relative;
-}
-
-.work-wrapper{
-	position: relative;
-}
-
-.work-wrapper-reverse{
-}
-
-.work-item{
-	background-color: transparent;
-	margin: 0;
-	border: 0;
-	padding: 0;
-}
-
-.work-info{
-	background-color: #868982;;
-	position: absolute;
-	top: 0;
-	left: 0;
-	xbottom: 0;
-	right: 0;
-	z-index: 1000;
-	display: none;
-}
-
-.work-info.on {
-	display: block;
-}
-
-.work-wrapper-reverse .work-info{
-	left: -100%;
-	right: 0;
-}
-
-
-/* DESKTOP -------------------------------------------------------*/
-@media only screen and (max-width: 1680px) {
-/* PARALLAX HOMEPAGE */
 
 .video {
 background-size: 1500px;
@@ -895,7 +861,7 @@ padding: -1rem 0;
 /* margin-top:-rem; */
 background-attachment: fixed;
 display: block;
-margin-top: -2600px;
+margin-top: -1790px;
 /* margin-bottom: -1900px; */
 background-image: url('../img/banner-final.jpg');
 overlow: hidden !important;
@@ -1250,4 +1216,78 @@ border-bottom-right-radius: 3px;
 	border-bottom-right-radius: 3px;
 	margin-top: -198px;
 }
-}	
+
+section {
+	padding: 0rem 0;
+}
+}
+
+.work {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-family: 'Droid Serif', serif;
+	padding-top: 30px;
+	margin-bottom: 100px;
+}
+
+.iconstext {
+	font-size: 50px;
+	text-align: center;
+	padding-bottom: 90px;
+	padding-bottom: 20px;
+	font-family: 'Droid Serif', serif;
+	width: 100%;
+}
+
+.office {
+	display: block;
+}
+
+.office2 {
+	display: block;
+	margin-bottom: -4px;
+}
+
+.office3 {
+	display: block;
+	margin-bottom: -90px;
+	margin-top: 130px;
+	position: relative;
+}
+
+.work-wrapper{
+	position: relative;
+}
+
+.work-wrapper-reverse{
+}
+
+.work-item{
+	background-color: transparent;
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+.work-info{
+	background-color: #868982;;
+	position: absolute;
+	top: 0;
+	left: 0;
+	xbottom: 0;
+	right: 0;
+	z-index: 1000;
+	display: none;
+}
+
+.work-info.on {
+	display: block;
+}
+
+.work-wrapper-reverse .work-info{
+	left: -100%;
+	right: 0;
+}
+}
+
