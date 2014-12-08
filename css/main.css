@@ -34,101 +34,19 @@ html, body{
 
 .masthead {
 	overflow: hidden;
-	position:absolute;
 	width:100%;
 	font-family: 'Droid Serif', serif;
-	
-}
-/* PARALLAX HOMEPAGE */
-
-.video {
-background-size: 1500px;
-padding: -1rem 0;
-/* margin-top:-rem; */
-background-attachment: fixed;
-display: block;
-margin-top: -1790px;
-/* margin-bottom: -1900px; */
-background-image: url('../img/banner-final.jpg');
-overlow: hidden !important;
-}
-
-.grid {
-	overflow: hidden;
-}
-
-.img-flex {
-	width: 100%;
-}
-
-.img-flex-square {
-	margin-bottom: 40px;
-	margin-top: 40px;
-	width: 80%;
-}
-
-.unit {
-	background-color: none;
-	width: 100%
-}
-
-.unit-s-1{
-	width:100%;	
-}
-
-section {
-	overflow-x: hidden;
-	padding: 0;
-}
-
-.about {
-	margin-bottom: -4px;
-}
-
-ul#list-nav {
-	list-style: none;
-	margin: 190px;
-	padding: 0;
-	right: 0;
-	margin-top: 650px;
-  transform: translateX(500px);
-  -webkit-animation: navslide 3000ms ease-out forwards;
-  -moz-animation: navslide 3000ms ease-out forwards;
-  -o-animation: navslide 3000ms ease-out forwards;
-  -ms-animation: navslide 3000ms ease-out forwards;
-  animation: navslide 3000ms ease-out forwards;
-}
-
-ul#list-nav li {
-  display:inline;
-}
-
-ul#list-nav li a {
-  text-decoration:none;
-  padding:10px 0;
-  width:100px;
-  color:#fff;
-  float:right;
-  text-align:center;
-  font-family: 'Droid Serif', serif;
-  font-size: 1rem;
-}
-
-ul#list-nav li a:hover {
-  background:#dbb7be;
-  color:#000;
 }
 
 /* IPHONE */
 
-@media only screen and (max-width: 414px) {	
 .video {
 background-size: 700px;
 padding: -1rem 0;
 /* margin-top:-rem; */
 background-attachment: fixed;
 display: block;
-margin-top: -1280px;
+margin-top: -1480px;
 /* margin-bottom: -1900px; */
 background-image: url('../img/banner-final.jpg');
 overlow: hidden !important;
@@ -230,7 +148,6 @@ li {
 	font-size: 30px;
 	color: #dbb7be;
 	padding-bottom: 90px;
-	background-color: #868982;
 	text-align: center;
 	/* margin-top: -150px; */
 }
@@ -466,7 +383,7 @@ border-bottom-right-radius: 3px;
 	border-bottom-right-radius: 3px;
 	margin-top: -198px;
 }
-}
+
 /* IPAD */
 
 @media only screen and (max-width: 1024px) {		
@@ -610,7 +527,6 @@ li {
 	font-size: 30px;
 	color: #dbb7be;
 	padding-bottom: 90px;
-	background-color: #868982;
 	text-align: center;
 	/* margin-top: -150px; */
 }
@@ -856,7 +772,7 @@ padding: -1rem 0;
 /* margin-top:-rem; */
 background-attachment: fixed;
 display: block;
-margin-top: -1590px;
+margin-top: -1390px;
 /* margin-bottom: -1900px; */
 background-image: url('../img/banner-final.jpg');
 overlow: hidden !important;
@@ -970,8 +886,86 @@ section {
 
 
 /* DESKTOP -------------------------------------------------------*/
+@media only screen and (max-width: 1680px) {
+/* PARALLAX HOMEPAGE */
 
+.video {
+background-size: 1500px;
+padding: -1rem 0;
+/* margin-top:-rem; */
+background-attachment: fixed;
+display: block;
+margin-top: -2600px;
+/* margin-bottom: -1900px; */
+background-image: url('../img/banner-final.jpg');
+overlow: hidden !important;
+}
 
+.grid {
+	overflow: hidden;
+}
+
+.img-flex {
+	width: 100%;
+}
+
+.img-flex-square {
+	margin-bottom: 40px;
+	margin-top: 40px;
+	width: 80%;
+}
+
+.unit {
+	background-color: none;
+	width: 100%
+}
+
+.unit-s-1{
+	width:100%;	
+}
+
+section {
+	overflow-x: hidden;
+	padding: 0;
+}
+
+.about {
+	margin-bottom: -4px;
+}
+
+ul#list-nav {
+	list-style: none;
+	margin: 190px;
+	padding: 0;
+	right: 0;
+	margin-top: 650px;
+  transform: translateX(500px);
+  -webkit-animation: navslide 3000ms ease-out forwards;
+  -moz-animation: navslide 3000ms ease-out forwards;
+  -o-animation: navslide 3000ms ease-out forwards;
+  -ms-animation: navslide 3000ms ease-out forwards;
+  animation: navslide 3000ms ease-out forwards;
+}
+
+ul#list-nav li {
+  display:inline;
+}
+
+ul#list-nav li a {
+  text-decoration:none;
+  padding:10px 0;
+  width:100px;
+  color:#fff;
+  float:right;
+  text-align:center;
+  font-family: 'Droid Serif', serif;
+  font-size: 1rem;
+}
+
+ul#list-nav li a:hover {
+  background:#dbb7be;
+  color:#000;
+}
 	.work-info{
 		bottom: 0;
 		right: -100%;
@@ -1256,4 +1250,4 @@ border-bottom-right-radius: 3px;
 	border-bottom-right-radius: 3px;
 	margin-top: -198px;
 }
-	
+}	
