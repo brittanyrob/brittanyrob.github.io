@@ -197,4 +197,3 @@ speed : 0.15
 $('.footer-image').parallax({
 speed : 0.15
 });
-

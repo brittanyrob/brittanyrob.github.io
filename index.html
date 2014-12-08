@@ -7,13 +7,26 @@
 	<link href="css/animations.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/slicknav.css" />
  <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Brittany Robertson</title>
 
 </head>
 
 <body>
+
 <div class="se-pre-con"></div>
+
+<label class="btn" for="toggle">&#9776;</label>
+<input id="toggle" type="checkbox" />
+
+<nav>
+  <ul id="nav">
+    <li><a href="#about">About</a></li>
+    <li class="current"><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
 <header class="masthead" id="top">
 	<ul id="list-nav">
@@ -314,9 +327,14 @@
 </div>		
 
 </footer>		
-
+<script>
+	$(function(){
+		$('#menu').slicknav();
+	});
+</script>
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="js/hammer.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
 </body>
 </html>

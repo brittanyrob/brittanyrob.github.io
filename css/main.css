@@ -217,7 +217,6 @@ margin-top:100px;
 
 li {
 	display: inline;
-	padding: 40px;
 	text-decoration: none;
 	color: #fff;
 }
@@ -463,15 +462,16 @@ section {
 /* Smartphones  ----------- */
 @media only screen and (max-device-width : 480px) {
 
+			
 .masthead {
 	overflow: hidden;
-	width:100%;
-	margin-bottom: -1300px;
+	width: 100%;
+	margin-top: -1100px;
 	font-family: 'Droid Serif', serif;
 }
 	
 .video {
-background-size: 500px;
+background-size: 422px;
 padding: -1rem 0;
 /* margin-top: -rem; */
 background-attachment: fixed;
@@ -479,6 +479,105 @@ display: block;
 /* margin-bottom: 1900px; */
 background-image: url('../img/banner-mobile.jpg');
 overflow: hidden !important;
+}
+
+.btn {
+  position: absolute;
+	top: 1.25em;
+	right: 5%;
+  z-index: 100;
+  padding: 0.25em 2%;
+  color: #fff;
+  border-radius: 0.25em;
+  background-color: #5b5756;
+  background-image: -webkit-linear-gradient(top, #6b6766, #5b5756);
+  background-image:    -moz-linear-gradient(top, #6b6766, #5b5756);
+  background-image:     -ms-linear-gradient(top, #6b6766, #5b5756);
+  background-image:      -o-linear-gradient(top, #6b6766, #5b5756);
+  background-image:         linear-gradient(top, #6b6766, #5b5756);
+}
+
+.btn:hover {
+  background-color: #7b7776;
+  background-image: -webkit-linear-gradient(top, #8b8786, #7b7776);
+  background-image:    -moz-linear-gradient(top, #8b8786, #7b7776);
+  background-image:     -ms-linear-gradient(top, #8b8786, #7b7776);
+  background-image:      -o-linear-gradient(top, #8b8786, #7b7776);
+  background-image:         linear-gradient(top, #8b8786, #7b7776);
+}
+
+#toggle {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+#nav {
+  position: absolute;
+  z-index: 10;
+  top: 5em;
+  left: 0;
+  width: 88%;
+  margin: 0;
+  list-style: none;
+  text-align: left;
+}
+
+#nav a {
+  height: 0;
+  line-height: 0;
+  display: block;
+  border-bottom-width: 0;
+  background: #444;
+  overflow: hidden;
+  color:#fff;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+     -moz-transition: 0.5s;
+      -ms-transition: 0.5s;
+       -o-transition: 0.5s;
+          transition: 0.5s;
+}
+
+#nav li {
+	display: inline;
+	text-decoration: none;
+	color: #fff;
+}
+
+#toggle:checked ~ nav #nav {
+  z-index: 101;
+  -webkit-box-shadow: 0px 3px 10px 3px #777;
+     -moz-box-shadow: 0px 3px 10px 3px #777;
+      -ms-box-shadow: 0px 3px 10px 3px #777;
+       -o-box-shadow: 0px 3px 10px 3px #777;
+          box-shadow: 0px 3px 10px 3px #777;
+}
+
+#toggle:checked ~ nav #nav a {
+	line-height: 3em;
+	height: 3em;
+	border-bottom: 1px solid #999;
+	position: relative;
+	z-index: 1;
+	padding: 15px;
+	margin-left: -40px;
+}
+
+#toggle:checked ~ nav #nav #close {
+  position: relative;
+  z-index: 0;
+}
+
+#toggle:checked ~ nav #nav #close label {
+  background: transparent;
+  border-bottom: 0;
+  position: absolute;
+  top: -101em;
+  bottom: -101em;
+  left: 0;
+  right: 0;
+  z-index: 0;
 }
 
 .top {
@@ -501,7 +600,7 @@ font-family: 'Droid Serif', serif;
 
 .copyright {
 	color: #fff;
-	right: 83px;
+	right: 59px;
 	position: absolute !important;
 	font-family: 'Droid Serif', serif;
 	font-size: 13px;
@@ -546,7 +645,6 @@ font-family: 'Droid Serif', serif;
 
 li {
 	display: inline;
-	padding: 40px;
 	text-decoration: none;
 	color: #fff;
 }
@@ -571,7 +669,7 @@ font-size: 10px;
 color: #fff;
 text-align: center;
 padding: 100px;
-margin-left: 95px;
+margin-left: 70px;
 }
 
 .email a:hover {
@@ -609,7 +707,7 @@ h4 {
 }
 
 .icon {
-	width: 80px;
+	width: 70px;
 	text-decoration: none !important;
 	margin-top: 20px;
 	margin-bottom: 100px;
@@ -643,44 +741,8 @@ a {
 	text-decoration: none !important;
 }	
 
-ul#list-nav {
-	list-style: none;
-	margin: 100px;
-	padding: 0;
-	right: 0;
-	margin-top: 420px;
- 	transform: translateX(500px);
-  -webkit-animation: navslide 3000ms ease-out forwards;
-  -moz-animation: navslide 3000ms ease-out forwards;
-  -o-animation: navslide 3000ms ease-out forwards;
-  -ms-animation: navslide 3000ms ease-out forwards;
-  animation: navslide 3000ms ease-out forwards;
-  z-index:200 !important;
-}
-
-ul#list-nav li {
-  display:inline;
-}
-
-ul#list-nav li a {
-	text-decoration: none;
-	padding: 25px 30px 0px;
-	width: 100px;
-	color: #fff;
-	float: right;
-	text-align: center;
-	font-family: 'Droid Serif', serif;
-	font-size: 23px;
-}
-
-ul#list-nav li a:hover {
-  background:#a2b3a1;
-  color:#000
-}
-
 .office {
 	display: block;
-	margin-bottom: 60px;
 }
 
 .work-info{
@@ -835,6 +897,112 @@ padding-left: 1000px;
 .grid {
 	overflow: hidden;
 }
+.btn {
+  position: absolute;
+  display: none;
+	top: 1.25em;
+	right: 5%;
+  z-index: 100;
+  padding: 0.25em 2%;
+  color: #fff;
+  border-radius: 0.25em;
+  background-color: #5b5756;
+  background-image: -webkit-linear-gradient(top, #6b6766, #5b5756);
+  background-image:    -moz-linear-gradient(top, #6b6766, #5b5756);
+  background-image:     -ms-linear-gradient(top, #6b6766, #5b5756);
+  background-image:      -o-linear-gradient(top, #6b6766, #5b5756);
+  background-image:         linear-gradient(top, #6b6766, #5b5756);
+}
+
+.btn:hover {
+  background-color: #7b7776;
+  display: none;
+  background-image: -webkit-linear-gradient(top, #8b8786, #7b7776);
+  background-image:    -moz-linear-gradient(top, #8b8786, #7b7776);
+  background-image:     -ms-linear-gradient(top, #8b8786, #7b7776);
+  background-image:      -o-linear-gradient(top, #8b8786, #7b7776);
+  background-image:         linear-gradient(top, #8b8786, #7b7776);
+}
+
+#toggle {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  display: none;
+}
+
+#nav {
+  position: absolute;
+  z-index: 10;
+  top: 5em;
+  left: 0;
+  width: 88%;
+  margin: 0;
+  list-style: none;
+  text-align: left;
+  display: none;
+}
+
+#nav a {
+  height: 0;
+  line-height: 0;
+  display: block;
+  border-bottom-width: 0;
+  background: #444;
+  overflow: hidden;
+  color:#fff;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+     -moz-transition: 0.5s;
+      -ms-transition: 0.5s;
+       -o-transition: 0.5s;
+          transition: 0.5s;
+		  display: none;
+}
+
+#nav li {
+	display: inline;
+	text-decoration: none;
+	color: #fff;
+	display: none;
+}
+
+#toggle:checked ~ nav #nav {
+  z-index: 101;
+  -webkit-box-shadow: 0px 3px 10px 3px #777;
+     -moz-box-shadow: 0px 3px 10px 3px #777;
+      -ms-box-shadow: 0px 3px 10px 3px #777;
+       -o-box-shadow: 0px 3px 10px 3px #777;
+          box-shadow: 0px 3px 10px 3px #777;
+		  display: none;
+}
+
+#toggle:checked ~ nav #nav a {
+  line-height: 3em;
+  height: 3em;
+  border-bottom: 1px solid #999;
+  position: relative;
+  z-index: 1;
+  display: none;
+}
+
+#toggle:checked ~ nav #nav #close {
+  position: relative;
+  z-index: 0;
+  display: none;
+}
+
+#toggle:checked ~ nav #nav #close label {
+  background: transparent;
+  border-bottom: 0;
+  position: absolute;
+  top: -101em;
+  bottom: -101em;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  display: none;
+}
 
 .img-flex {
 	width: 100%;
@@ -930,7 +1098,6 @@ font-family: 'Droid Serif', serif;
 
 li {
 	display: inline;
-	padding: 40px;
 	text-decoration: none;
 	color: #fff;
 }
