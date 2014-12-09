@@ -197,3 +197,4 @@ function scroll(element, parent){
      $(parent).animate({ scrollTop: $(parent).scrollTop() + $(element).offset().top - $(parent).offset().top }, { duration: 'slow', easing: 'swing'});
      $('html,body').animate({ scrollTop: $(parent).offset().top - $(window).height() + $(element).height() }, { duration: 1000, easing: 'swing'});
 }
+
