@@ -1275,12 +1275,14 @@ ul#list-nav li a:hover {
 	
 	.work-text{
 /* float: right; */
-/* width: 50%; */
+width: 20%;
 /* margin-top: -350px; */
 font-family: 'Droid Serif', serif;
 color: #fff;
-margin-right: 500px;
-margin-top:100px;
+/* margin-right: 00px; */
+margin-top: 350px;
+/* padding: 0px; */
+margin-left: 315px;
 	}
 	
 
@@ -1308,10 +1310,8 @@ margin-top:100px;
 	margin-right:180px;
 	color:#dbb7be;
 
-	}	
+	}		
 	
-/* SLIDESHOW */
-
 .bss-slides{
   position: relative;
   display: block; 
@@ -1322,8 +1322,11 @@ margin-top:100px;
 }
 .bss-slides figure{
 position: absolute;
-top: -194px !important;
-width: 25%;
+top: -504px !important;
+width: 30%;
+text-align:center;
+margin-right: auto;
+margin-left: 210px;
 }
 .bss-slides figure:first-child{
   position: relative;
@@ -1369,17 +1372,18 @@ margin-top: -6.2em;
   opacity: 1;
 }
 .bss-next{
-left: 515px;;
+left: 779px;
 padding: 10px 10px 15px 5px;
 border-top-right-radius: 3px;
 border-bottom-right-radius: 3px;
+margin-top: -508px;
 }
 .bss-prev{
-	left: 49px;;
-	padding: 10px 10px 15px 5px;
-	border-top-right-radius: 3px;
-	border-bottom-right-radius: 3px;
-	margin-top: -198px;
+left: 229px;
+padding: 10px 10px 15px 5px;
+border-top-right-radius: 3px;
+border-bottom-right-radius: 3px;
+margin-top: -508px;
 }
 
 ul#list-nav {
