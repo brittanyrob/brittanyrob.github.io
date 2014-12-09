@@ -893,7 +893,7 @@ padding: -1rem 0;
 /* margin-top:-rem; */
 background-attachment: fixed;
 display: block;
-margin-top: -1280px;
+margin-top: -1750px;
 /* margin-bottom: -1900px; */
 background-image: url('../img/banner-final.jpg');
 overlow: hidden !important;
@@ -1120,7 +1120,14 @@ li {
 }
 
 .email {
-	background-image: url(../img/desk.jpg);
+background-size: 1160px;
+padding: -1rem 0;
+margin-top: -rem;
+background-attachment: fixed;
+display: block;
+background-image: url('../img/desk.jpg');
+overflow: hidden !important;
+height: 350px;
 }
 
 .email a {
@@ -1129,10 +1136,10 @@ li {
 	text-decoration: none !important;
 	font-family: 'Droid Serif', serif;
 	font-size: 30px;
-	color: #dbb7be;
+	color: #fff;
 	padding-bottom: 90px;
 	text-align: center;
-	/* margin-top: -150px; */
+	margin-top: 40px;
 }
 
 .email a:hover {
@@ -1157,9 +1164,6 @@ h3 {
 	text-align: center;
 	text-decoration: none !important;
 	font-weight: bold;
-	border-style: solid;
-	border-width: medium;
-	border-color: #dbb7be;
 	padding: 20px;
 }
 
@@ -1211,7 +1215,7 @@ ul#list-nav {
 	margin: 100px;
 	padding: 0;
 	right: 0;
-	margin-top: 420px;
+	margin-top: 580px;
  	transform: translateX(500px);
   -webkit-animation: navslide 3000ms ease-out forwards;
   -moz-animation: navslide 3000ms ease-out forwards;
