@@ -896,12 +896,12 @@ margin-top: -6.2em;
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
 .video {
-background-size: 1400px;
+background-size: 1030px;
 padding: -1rem 0;
 /* margin-top: -rem; */
 background-attachment: fixed;
 display: block;
-margin-top: -1820px;
+margin-top: -1320px;
 /* margin-bottom: -1900px; */
 background-image: url('../img/banner-final.jpg');
 overflow: hidden !important;
@@ -1066,9 +1066,9 @@ width: 20%;
 font-family: 'Droid Serif', serif;
 color: #fff;
 /* margin-right: 00px; */
-margin-top: 600px;
+margin-top: 350px;
 /* padding: 0px; */
-margin-left: 420px;
+margin-left: 320px;
 line-height: 23px;
 	}
 	
@@ -1118,7 +1118,7 @@ line-height: 23px;
 }
 .bss-slides figure{
 position: absolute;
-top: -875px !important;
+top: -685px !important;
 width: 50%;
 /* height:40%; */
 text-align:center;
