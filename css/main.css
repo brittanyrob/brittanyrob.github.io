@@ -1372,7 +1372,7 @@ border-bottom-right-radius: 3px;
 }
 /* Desktops and laptops ----------- */
 @media only screen 
-and (min-width : 1224px) {
+and (max-width : 1224px) {
 
 .video {
 background-size: 1300px;
@@ -1651,7 +1651,7 @@ border-bottom-right-radius: 3px;
 
 /* Large Screen ----------- */
 @media only screen 
-and (min-width : 1440px) {
+and (min-width : 1225px) {
 
 .video {
 background-size: 1700px;
