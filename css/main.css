@@ -471,7 +471,7 @@ padding: -1rem 0;
 background-attachment: fixed;
 display: block;
 /* margin-bottom: 1900px; */
-background-image: url('../img/404.jpg');
+background-image: url('../img/banner-mobile.jpg');
 overflow: hidden !important;
 }
 
@@ -903,7 +903,7 @@ background-attachment: fixed;
 display: block;
 margin-top: -1320px;
 /* margin-bottom: -1900px; */
-background-image: url('../img/404.jpg');
+background-image: url('../img/banner-final.jpg');
 overflow: hidden !important;
 }
 
