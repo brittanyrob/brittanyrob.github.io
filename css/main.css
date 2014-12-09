@@ -1412,7 +1412,7 @@ ul#list-nav li a {
 	float: right;
 	text-align: center;
 	font-family: 'Droid Serif', serif;
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 }
 
 ul#list-nav li a:hover {
@@ -1691,7 +1691,7 @@ color: #000;
 float: right;
 text-align: center;
 font-family: 'Droid Serif', serif;
-font-size: 1.6rem;
+font-size: 1.3rem;
 }
 
 ul#list-nav li a:hover {
