@@ -1591,9 +1591,9 @@ width: 20%;
 font-family: 'Droid Serif', serif;
 color: #fff;
 /* margin-right: 00px; */
-margin-top: 100px;
+margin-top: 500px;
 /* padding: 0px; */
-margin-left: 720px;
+margin-left: 420px;
 	}
 	
 
@@ -1642,8 +1642,11 @@ margin-left: 720px;
 }
 .bss-slides figure{
 position: absolute;
-top: -194px !important;
-width: 25%;
+top: -654px !important;
+width: 30%;
+text-align:center;
+margin-right: auto;
+margin-left: 270px;
 }
 .bss-slides figure:first-child{
   position: relative;
@@ -1689,18 +1692,19 @@ margin-top: -6.2em;
   opacity: 1;
 }
 .bss-next{
-left: 640px;;
+left: 1059px;;
 padding: 10px 10px 15px 5px;
 border-top-right-radius: 3px;
 border-bottom-right-radius: 3px;
+margin-top: -658px;
 }
 .bss-prev{
-	left: 49px;;
-	padding: 10px 10px 15px 5px;
-	border-top-right-radius: 3px;
-	border-bottom-right-radius: 3px;
-	margin-top: -198px;
-}		
+left: 289px;;
+padding: 10px 10px 15px 5px;
+border-top-right-radius: 3px;
+border-bottom-right-radius: 3px;
+margin-top: -658px;
+}	
 
 }
 
@@ -1879,9 +1883,9 @@ width: 20%;
 font-family: 'Droid Serif', serif;
 color: #fff;
 /* margin-right: 00px; */
-margin-top: 100px;
+margin-top: 500px;
 /* padding: 0px; */
-margin-left: 720px;
+margin-left: 420px;
 	}
 	
 
@@ -1923,8 +1927,11 @@ margin-left: 720px;
 }
 .bss-slides figure{
 position: absolute;
-top: -194px !important;
-width: 25%;
+top: -654px !important;
+width: 30%;
+text-align:center;
+margin-right: auto;
+margin-left: 270px;
 }
 .bss-slides figure:first-child{
   position: relative;
@@ -1970,17 +1977,18 @@ margin-top: -6.2em;
   opacity: 1;
 }
 .bss-next{
-left: 720px;;
+left: 1059px;;
 padding: 10px 10px 15px 5px;
 border-top-right-radius: 3px;
 border-bottom-right-radius: 3px;
+margin-top: -658px;
 }
 .bss-prev{
-	left: 49px;;
-	padding: 10px 10px 15px 5px;
-	border-top-right-radius: 3px;
-	border-bottom-right-radius: 3px;
-	margin-top: -198px;
+left: 289px;;
+padding: 10px 10px 15px 5px;
+border-top-right-radius: 3px;
+border-bottom-right-radius: 3px;
+margin-top: -658px;
 }		
 
 .office {
