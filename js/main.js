@@ -28,11 +28,6 @@ $workClose.on("click", function () {
 	$(this).parent().removeClass('on');
 });
 
-$workcloseReverse.on("click", function () {
-	$(this).parent().removeClass('on');
-});
-
-
 
 /* Slideshow */
 
