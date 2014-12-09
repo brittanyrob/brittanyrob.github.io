@@ -1409,12 +1409,12 @@ ul#list-nav li a:hover {
 and (min-width : 1224px) {
 
 .video {
-background-size: 1300px;
+background-size: 1400px;
 padding: -1rem 0;
 /* margin-top: -rem; */
 background-attachment: fixed;
 display: block;
-margin-top: -1620px;
+margin-top: -1820px;
 /* margin-bottom: -1900px; */
 background-image: url('../img/banner-final.jpg');
 overflow: hidden !important;
