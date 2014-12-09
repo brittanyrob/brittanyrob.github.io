@@ -1375,12 +1375,12 @@ border-bottom-right-radius: 3px;
 and (min-width : 1224px) {
 
 .video {
-background-size: 1500px;
+background-size: 1300px;
 padding: -1rem 0;
-/* margin-top:-rem; */
+/* margin-top: -rem; */
 background-attachment: fixed;
 display: block;
-margin-top: -2210px;
+margin-top: -1620px;
 /* margin-bottom: -1900px; */
 background-image: url('../img/banner-final.jpg');
 overflow: hidden !important;
@@ -1391,7 +1391,7 @@ ul#list-nav {
 	margin: 90px;
 	padding: 0;
 	right: 0;
-	margin-top: 650px;
+	margin-top: 60px;
   transform: translateX(500px);
   -webkit-animation: navslide 3000ms ease-out forwards;
   -moz-animation: navslide 3000ms ease-out forwards;
@@ -1407,12 +1407,12 @@ ul#list-nav li {
 ul#list-nav li a {
 	text-decoration: none;
 	padding: 10px 0;
-	width: 100px;
-	color: #fff;
+	width: 130px;
+	color: #000;
 	float: right;
 	text-align: center;
 	font-family: 'Droid Serif', serif;
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 }
 
 ul#list-nav li a:hover {
@@ -1656,10 +1656,10 @@ and (min-width : 1440px) {
 .video {
 background-size: 1500px;
 padding: -1rem 0;
-/* margin-top:-rem; */
+/* margin-top: -rem; */
 background-attachment: fixed;
 display: block;
-margin-top: -2410px;
+margin-top: -1850px;
 /* margin-bottom: -1900px; */
 background-image: url('../img/banner-final.jpg');
 overflow: hidden !important;
@@ -1668,9 +1668,9 @@ overflow: hidden !important;
 ul#list-nav {
 	list-style: none;
 	margin: 90px;
-	padding: 0;
+	padding: 0px;
 	right: 0;
-	margin-top: 650px;
+	margin-top: 80px;
   transform: translateX(500px);
   -webkit-animation: navslide 3000ms ease-out forwards;
   -moz-animation: navslide 3000ms ease-out forwards;
@@ -1684,14 +1684,14 @@ ul#list-nav li {
 }
 
 ul#list-nav li a {
-	text-decoration: none;
-	padding: 10px 0;
-	width: 100px;
-	color: #fff;
-	float: right;
-	text-align: center;
-	font-family: 'Droid Serif', serif;
-	font-size: 1.2rem;
+text-decoration: none;
+padding: 10px 0;
+width: 150px;
+color: #000;
+float: right;
+text-align: center;
+font-family: 'Droid Serif', serif;
+font-size: 1.6rem;
 }
 
 ul#list-nav li a:hover {
