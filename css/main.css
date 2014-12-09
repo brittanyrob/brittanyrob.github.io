@@ -888,12 +888,12 @@ margin-top: -6.2em;
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
 .video {
-background-size: 1200px;
+background-size: 1050px;
 padding: -1rem 0;
-/* margin-top:-rem; */
+/* margin-top: -rem; */
 background-attachment: fixed;
 display: block;
-margin-top: -1750px;
+margin-top: -1330px;
 /* margin-bottom: -1900px; */
 background-image: url('../img/banner-final.jpg');
 overlow: hidden !important;
@@ -1368,11 +1368,45 @@ border-bottom-right-radius: 3px;
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px;
 	margin-top: -198px;
+}
+
+ul#list-nav {
+	list-style: none;
+	margin: 90px;
+	padding: 0;
+	right: 0;
+	margin-top: 60px;
+  transform: translateX(500px);
+  -webkit-animation: navslide 3000ms ease-out forwards;
+  -moz-animation: navslide 3000ms ease-out forwards;
+  -o-animation: navslide 3000ms ease-out forwards;
+  -ms-animation: navslide 3000ms ease-out forwards;
+  animation: navslide 3000ms ease-out forwards;
+}
+
+ul#list-nav li {
+  display:inline;
+}
+
+ul#list-nav li a {
+	text-decoration: none;
+	padding: 10px 0;
+	width: 130px;
+	color: #000;
+	float: right;
+	text-align: center;
+	font-family: 'Droid Serif', serif;
+	font-size: 1.1rem;
+}
+
+ul#list-nav li a:hover {
+  background:#dbb7be;
+  color:#000;
 }		
 }
 /* Desktops and laptops ----------- */
 @media only screen 
-and (max-width : 1224px) {
+and (min-width : 1224px) {
 
 .video {
 background-size: 1300px;
@@ -1651,7 +1685,7 @@ border-bottom-right-radius: 3px;
 
 /* Large Screen ----------- */
 @media only screen 
-and (min-width : 1225px) {
+and (min-width : 1440px) {
 
 .video {
 background-size: 1700px;
