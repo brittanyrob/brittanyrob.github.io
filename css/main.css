@@ -1654,7 +1654,7 @@ border-bottom-right-radius: 3px;
 and (min-width : 1440px) {
 
 .video {
-background-size: 1500px;
+background-size: 1550px;
 padding: -1rem 0;
 /* margin-top: -rem; */
 background-attachment: fixed;
