@@ -739,6 +739,14 @@ width: 100%;
 	display: block;
 }
 
+.work {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-family: 'Droid Serif', serif;
+	padding-top: 30px;
+}
+
 .work-wrapper{
 	position: relative;
 }
@@ -767,12 +775,15 @@ width: 100%;
 /* margin-top: -350px; */
 font-family: 'Droid Serif', serif;
 color: #fff;
-margin-right: 500px;
-margin-top:100px;
+margin-right: 320px;
+margin-top: -244px;
+margin-bottom: -100px;
+text-align: center;
+padding: 10px;
 }
 
 .work-close{
-margin-top: 30px;
+margin-top: 400px;
 /* margin-left: -70px; */
 font-family: 'Droid Serif', serif;
 font-size: 20px;
@@ -780,20 +791,19 @@ color: #fff;
 background: none;
 border: none;
 /* position: absolute; */
-margin-right: 130px;
+margin-right: 90px;
 }
 	
 .work-close:hover {
-	margin-top: 50px;
+	margin-top: 400px;
 	/* margin-left: -70px; */
 	font-family: 'Droid Serif', serif;
-	font-size: 30px;
+	font-size: 20px;
 	color:#fff;
 	background: none;
 	border: none;
 	/* position: absolute; */
-	margin-right:180px;
-	color:#dbb7be;
+	margin-right: 90px;
 }
 
 /* SLIDESHOW */
@@ -808,9 +818,10 @@ margin-right: 130px;
 }
 .bss-slides figure{
 position: absolute;
-top: -200px !important;
-width: 40%;
-margin-bottom: 50px;
+top: -225px !important;
+width: 50%;
+margin-left: -0px;
+margin-bottom: 100px;
 }
 .bss-slides figure:first-child{
   position: relative;
@@ -856,17 +867,18 @@ margin-top: -6.2em;
   opacity: 1;
 }
 .bss-next{
-left: 515px;;
-padding: 10px 10px 15px 5px;
-border-top-right-radius: 3px;
-border-bottom-right-radius: 3px;
-}
-.bss-prev{
-	left: 49px;;
+	left: 285px;
 	padding: 10px 10px 15px 5px;
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px;
-	margin-top: -198px;
+	margin-top: -268px;
+}
+.bss-prev{
+	left: 5px;
+	padding: 10px 10px 15px 5px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	margin-top: -268px;
 }
 }
 /* iPads (portrait and landscape) ----------- */
@@ -1278,8 +1290,7 @@ margin-top:100px;
 	margin-right:180px;
 	color:#dbb7be;
 
-	}
-	
+	}	
 	
 /* SLIDESHOW */
 
