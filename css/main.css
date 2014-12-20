@@ -106,16 +106,16 @@ a {
   -o-user-select: none;
   user-select: none;
   width: 64px;
-  background: #868982;
+  background: #fff;
 }
 
 .menu-opener:hover, .menu-opener.active {
-  background: #868982;
+  background: #fff;
   position: absolute;
 }
 
 .menu-opener-inner {
-  background: #fff;
+  background: #868982;
   height: .5rem;
   margin-left: .75rem;
   margin-top: 1.75rem;
@@ -123,7 +123,7 @@ a {
 }
 
 .menu-opener-inner::before, .menu-opener-inner::after {
-  background: white;
+  background: #868982;
   content: '';
   display: block;
   height: .5rem;
@@ -167,7 +167,7 @@ a {
 }
 
 .menu {
-  background: #868982;
+  background: #fff;
   color: transparent;
   height: 64px;
   position: absolute;
@@ -193,7 +193,7 @@ a {
 }
 
 .menu.active .menu-link {
-  color: white;
+  color: #868982;
 }
 
 .menu-inner {
@@ -271,6 +271,7 @@ a {
 
 .menu-link li {
   margin: auto;
+  color: #868982;
 }
 
 @media screen and (max-width: 768px) {
