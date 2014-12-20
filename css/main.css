@@ -25,15 +25,24 @@ html, body{
 	overflow: hidden;
 }
 
-img{
+img {
 	width: 100%;
+	overflow: hidden !important;
 }
 
 .header {
-  background-image: url('../img/header.jpg');
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background: url('../img/header.jpg') no-repeat center center;
   position: relative;
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:500px;
+  text-align:center;
+  min-height:340px;
+  width: 100%;
+  overflow: hidden !important;
 }
 
 .unit {
@@ -344,6 +353,7 @@ a {
   background-color: #868982;
   text-decoration: none !important;
   margin-top: -1px;
+  padding-top: 20px;
 }
 
 .social li {
