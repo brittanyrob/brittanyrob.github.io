@@ -45,6 +45,11 @@ img {
   overflow: hidden !important;
 }
 
+.logo img {
+	height: 502px;
+	width: 100%;
+}
+
 .unit {
 	background-color: none;
 	width: 100%
