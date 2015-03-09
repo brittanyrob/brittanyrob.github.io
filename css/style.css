@@ -859,8 +859,8 @@ a .icon.outline.dark:hover {
 	float: left;
 	text-align: left;
 	width: auto;
-	max-height: 30px;
-	margin-top: 20px;
+	max-height: 75px;
+	margin-top: 0px;
 	margin-bottom: 0;
 }
 
