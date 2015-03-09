@@ -56,82 +56,63 @@
 
 
 
-	<!-- Home with advanced controlled background video -->
+	<!-- Home with controlled background video -->
 	<div id="home" class="home-wrap video">
-		<div class="home-content">
+		<div class="home-content text-white">
 
 
-			<!-- We're going to show this before the movie -->
-			<div id="show-before" class="text-white">
-				<hr>
+			<!-- Logo and text -->
+			<img src="images/magnum-logo-home.png" alt="magnum-logo-home" width="62" height="48">
+			<h1 class="bigtext letterspace uppercase bold no-margin">Magnum</h1>
+			<h6 class="bigtext serif italic margin-bottom">Premium Stuff</h6>
 
 
-				<!-- Introduction -->
-				<h5 class="bigtext serif italic margin-bottom">Hello!</h5>
-				<h1 class="fittext uppercase bold">Let me tell<br>you a story</h1>
+			<!-- The play button -->
+			<a class="button white play-btn-normal margin-bottom" onclick="jQuery('#video').playYTP()">
+				<i class="fa fa-play-circle-o"></i> Watch Video
+			</a>
 
 
-				<!-- Play button for the video -->
-				<a class="play-btn" onclick="jQuery('#video').playYTP()">
-					<i class="fa fa-play"></i>
-				</a>
+			<!-- Home menu -->
+			<ul class="home-menu">
+				<li>
+					<a href="#work" class="smoothscroll">
+						<i class="fa fa-briefcase"></i>
+						<b>Work</b>
+						<em>What I've made</em>
+					</a>
+				</li>
+				<li>
+					<a href="#about" class="smoothscroll">
+						<i class="fa fa-thumbs-o-up"></i>
+						<b>About</b>
+						<em>Personal Facts</em>
+					</a>
+				</li>
+				<li>
+					<a href="#services" class="smoothscroll">
+						<i class="fa fa-star"></i>
+						<b>Services</b>
+						<em>You &amp; Me = Awesome</em>
+					</a>
+				</li>
+				<li>
+					<a href="#contact" class="smoothscroll">
+						<i class="fa fa-glass"></i>
+						<b>Contact</b>
+						<em>Let's Skip the Coffee</em>
+					</a>
+				</li>
+			</ul>
 
 
-				<hr>
-			</div>
-
-
-			<!-- We're going to show this after the movie and on mobile devices -->
-			<div id="show-after" class="text-white">
-
-
-				<!-- Logo and text -->
-				<img src="images/magnum-logo-home.png" alt="magnum-logo-home" width="62" height="48">
-				<h1 class="bigtext letterspace uppercase bold no-margin">Magnum</h1>
-				<h6 class="bigtext serif italic margin-bottom">Premium Stuff</h6>
-
-
-				<!-- Home menu -->
-				<ul class="home-menu">
-					<li>
-						<a href="#work" class="smoothscroll">
-							<i class="fa fa-briefcase"></i>
-							<b>Work</b>
-							<em>What I've Made</em>
-						</a>
-					</li>
-					<li>
-						<a href="#about" class="smoothscroll">
-							<i class="fa fa-thumbs-o-up"></i>
-							<b>About</b>
-							<em>Personal Facts</em>
-						</a>
-					</li>
-					<li>
-						<a href="#services" class="smoothscroll">
-							<i class="fa fa-star"></i>
-							<b>Services</b>
-							<em>You &amp; Me = Awesome</em>
-						</a>
-					</li>
-					<li>
-						<a href="#contact" class="smoothscroll">
-							<i class="fa fa-glass"></i>
-							<b>Contact</b>
-							<em>Let's Skip the Coffee</em>
-						</a>
-					</li>
-				</ul>
-
-
-			</div>
 		</div>
 	</div>
 
 
 	<!-- Background with youtube video -->
 	<div class="video-container">
-		<a id="video" class="fullscreen-video" data-property="{videoURL:'http://www.youtube.com/watch?v=RdIh8GiVR9I'}">The Video</a>
+		<a id="video" class="fullscreen-video" data-property="{videoURL:'http://www.youtube.com/watch?v=tDvBwPzJ7dY'}">The Video</a>
 	</div>
 
 
@@ -142,12 +123,8 @@
 	</div>
 
 
-	<!-- Background image to display before the video -->
-	<div style="background-image: url('images/placeholder-fullscreen.png');" class="fullscreen-img img-before"></div>
-
-
-	<!-- Background image to display after the video and on mobile devices -->
-	<div style="background-image: url('images/placeholder-fullscreen.png');" class="fullscreen-img img-after"></div>
+	<!-- Background image to display when the video doesn't play anymore -->
+	<div style="background-image: url('images/placeholder-fullscreen.png');" class="fullscreen-img"></div>
 
 
 
@@ -778,7 +755,7 @@
 	
 	<!-- Specific functions for this page -->
 	<script src="js/lib/jquery.ytplayer.js"></script>
-	<script src="js/index.js"></script>
+	<script src="js/index2.js"></script>
 	
 	<!-- Scripts for the services slider -->
 	<script src="js/lib/jquery.touchswipe.min.js"></script>

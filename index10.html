@@ -28,7 +28,6 @@
 	<!-- Essential stylesheets -->
 	<link rel="stylesheet" href="css/loader.css">
 	<link rel="stylesheet" href="css/lib/essentials.css">
-	<link rel="stylesheet" href="css/lib/ytplayer.css">
 	<link rel="stylesheet" href="css/lib/font-awesome.min.css">
 	<link rel="stylesheet" href="css/lib/magnific-popup.css">
 	<link rel="stylesheet" href="css/lib/jquery.bxslider.css">
@@ -56,33 +55,10 @@
 
 
 
-	<!-- Home with advanced controlled background video -->
-	<div id="home" class="home-wrap video">
+	<!-- Home short automatic background slider / fader -->
+	<div id="home" class="home-wrap-short">
 		<div class="home-content">
-
-
-			<!-- We're going to show this before the movie -->
-			<div id="show-before" class="text-white">
-				<hr>
-
-
-				<!-- Introduction -->
-				<h5 class="bigtext serif italic margin-bottom">Hello!</h5>
-				<h1 class="fittext uppercase bold">Let me tell<br>you a story</h1>
-
-
-				<!-- Play button for the video -->
-				<a class="play-btn" onclick="jQuery('#video').playYTP()">
-					<i class="fa fa-play"></i>
-				</a>
-
-
-				<hr>
-			</div>
-
-
-			<!-- We're going to show this after the movie and on mobile devices -->
-			<div id="show-after" class="text-white">
+			<div class="centerdiv text-white">
 
 
 				<!-- Logo and text -->
@@ -91,63 +67,19 @@
 				<h6 class="bigtext serif italic margin-bottom">Premium Stuff</h6>
 
 
-				<!-- Home menu -->
-				<ul class="home-menu">
-					<li>
-						<a href="#work" class="smoothscroll">
-							<i class="fa fa-briefcase"></i>
-							<b>Work</b>
-							<em>What I've Made</em>
-						</a>
-					</li>
-					<li>
-						<a href="#about" class="smoothscroll">
-							<i class="fa fa-thumbs-o-up"></i>
-							<b>About</b>
-							<em>Personal Facts</em>
-						</a>
-					</li>
-					<li>
-						<a href="#services" class="smoothscroll">
-							<i class="fa fa-star"></i>
-							<b>Services</b>
-							<em>You &amp; Me = Awesome</em>
-						</a>
-					</li>
-					<li>
-						<a href="#contact" class="smoothscroll">
-							<i class="fa fa-glass"></i>
-							<b>Contact</b>
-							<em>Let's Skip the Coffee</em>
-						</a>
-					</li>
-				</ul>
-
-
 			</div>
 		</div>
+		<ul class="bxslider" id="home-short-bg-fader">
+
+
+			<!-- The backgrounds -->
+			<li><div style="background-image: url('images/placeholder-header.png')" class="header"></div></li>
+			<li><div style="background-image: url('images/placeholder-header.png')" class="header"></div></li>
+			<li><div style="background-image: url('images/placeholder-header.png')" class="header"></div></li>
+
+
+		</ul>
 	</div>
-
-
-	<!-- Background with youtube video -->
-	<div class="video-container">
-		<a id="video" class="fullscreen-video" data-property="{videoURL:'http://www.youtube.com/watch?v=RdIh8GiVR9I'}">The Video</a>
-	</div>
-
-
-	<!-- Video controls -->
-	<div class="video-controls">
-		<button onclick="jQuery('#video').pauseYTP()"><i class="fa fa-pause"></i></button>
-		<button onclick="jQuery('#video').toggleVolume()"><i class="fa fa-volume-up"></i></button>
-	</div>
-
-
-	<!-- Background image to display before the video -->
-	<div style="background-image: url('images/placeholder-fullscreen.png');" class="fullscreen-img img-before"></div>
-
-
-	<!-- Background image to display after the video and on mobile devices -->
-	<div style="background-image: url('images/placeholder-fullscreen.png');" class="fullscreen-img img-after"></div>
 
 
 
@@ -522,8 +454,8 @@
 				<!-- Slider controls -->
 				<h2 class="text-color">How may I help you today?</h2>
 				<p>
-					<a id="services-prev" href="javascript:void(0)"><i class="fa fa-chevron-left icon arrow-next outline color attached"></i></a>
-					<a id="services-next" href="javascript:void(0)"><i class="fa fa-chevron-right icon arrow-prev outline color attached"></i></a>
+					<a id="services-prev" href="#"><i class="fa fa-chevron-left icon arrow-next outline color attached"></i></a>
+					<a id="services-next" href="#"><i class="fa fa-chevron-right icon arrow-prev outline color attached"></i></a>
 				</p>
 
 
@@ -736,29 +668,34 @@
 
 
 	<!-- The footer -->
-	<section class="footer-two">
+	<section class="footer">
 		<div class="row">
-			<div class="twelve columns">
 
 
-				<!-- Back to top button -->
-				<p><a href="#home" class="smoothscroll"><i class="fa fa-chevron-up icon arrow-top"></i></a></p>
-
-
-				<!-- Social icons -->
-				<p>
-					<a href="#"><i class="fa fa-twitter icon outline light"></i></a>
-					<a href="#"><i class="fa fa-facebook icon outline light"></i></a>
-					<a href="#"><i class="fa fa-dribbble icon outline light"></i></a>
-				</p>
-
-
-				<!-- Credits -->
-				<p class="text-light">Magnum&trade; by <a href="http://themeforest.net/user/Pixel-Stuff" target="blank" class="underline">PixelStuff</a><br>
-				&mdash; Made with <i class="fa fa-heart text-color"></i> on The Moon &mdash;</p>
-
-
+			<!-- Credits -->
+			<div class="six columns alignleft">
+				<p class="text-light">Made with <i class="fa fa-heart text-color"></i> on The Moon</p>
 			</div>
+
+
+			<!-- Social icons -->
+			<div class="six columns alignright">
+				<p><a href="#"><i class="fa fa-twitter icon medium light"></i></a>
+				<a href="#"><i class="fa fa-facebook icon medium light"></i></a>
+				<a href="#"><i class="fa fa-dribbble icon medium light"></i></a></p>
+			</div>
+
+
+		</div>
+		<div class="row">
+
+
+			<!-- Back to top button -->
+			<div class="twelve columns">
+				<a href="#home" class="smoothscroll"><i class="fa fa-chevron-up icon arrow-bottom light"></i></a>
+			</div>
+
+
 		</div>
 	</section>
 
@@ -777,8 +714,7 @@
 	<script src="js/main.js"></script>
 	
 	<!-- Specific functions for this page -->
-	<script src="js/lib/jquery.ytplayer.js"></script>
-	<script src="js/index.js"></script>
+	<script src="js/index10.js"></script>
 	
 	<!-- Scripts for the services slider -->
 	<script src="js/lib/jquery.touchswipe.min.js"></script>
