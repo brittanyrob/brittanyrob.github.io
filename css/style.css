@@ -1440,7 +1440,7 @@ a.play-btn-normal {
 /* ******************** 08 - About Me ******************** */
 .about {
 	position: relative;
-	padding-top: 100px;
+	padding-top: 0px;
 	padding-bottom: 140px;
 	background: #ffffff;
 }
@@ -1700,7 +1700,7 @@ li.service-item ul li:nth-child(odd) {
 	position: relative;
 	padding-top: 100px;
 	padding-bottom: 140px;
-	background: #ffffff;
+	background: #9F1013;
 }
 
 /* Styling for the contactform */
